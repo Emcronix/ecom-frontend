@@ -80,7 +80,7 @@ export default async function sitemap() {
 
   const paths = [
     "/",
-    "/ayatrio-map",
+    "/emcronix-map",
     "/businesstobusiness",
     "/cart",
     "/customerservice",
@@ -101,7 +101,7 @@ export default async function sitemap() {
     "/priceguarantee",
     "/profile",
     "/returnpolicy",
-    "/thisisayatrio",
+    "/thisisemcronix",
     ...homedecorPaths,
     ...walldecorPaths,
     ...flooringPaths,

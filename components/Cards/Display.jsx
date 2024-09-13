@@ -46,7 +46,7 @@ const Display = async () => {
             <div className="px-[15px] flex flex-col  lg:grid lg:grid-cols-2 md:flex-row gap-4  items-center justify-between mx-auto my-8">
               <div className="w-full">
                 <>
-                  <div
+                  {/* <div
                     className={`relative w-full h-[492px] screen  lg:min-h-[730px] max-w-1/2`}
                   >
                     <TabImage
@@ -79,12 +79,12 @@ const Display = async () => {
                         </Link>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </>
               </div>
               <div className="max-w-1/2 w-full">
                 <>
-                  <div
+                  {/* <div
                     className={`relative w-full h-[492px] screen lg:min-h-[730px]  max-w-1/2 `}
                   >
                     <TabImage
@@ -116,7 +116,7 @@ const Display = async () => {
                         </Link>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </>
               </div>
             </div>

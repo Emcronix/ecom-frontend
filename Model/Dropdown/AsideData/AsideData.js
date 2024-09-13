@@ -1,18 +1,18 @@
 export const headerLinks = [
   {
-    label: "Home décor",
+    label: "Vlogging",
   },
   {
-    label: "Wall décor",
+    label: "Electronics",
   },
   {
-    label: "Floor",
+    label: "Videography",
   },
   {
-    label: "Rooms",
+    label: "Mobile Accessories",
   },
   {
-    label: "Services",
+    label: "Sports",
   },
   {
     label: "Offers",

@@ -7,7 +7,7 @@ const BillingPayment = () => {
                 <h1 className=" text-[24px] lg:text-[2.25rem] text-[#111111] font-semibold mb-10">Billing & Payment</h1>
                 <div className="flex flex-col">
                     <h2 className="font-semibold text-[14px] mb-[8px]">Billing & Payment</h2>
-                    <p className="text-[14px] mb-[12px] text-[#484848]">Ayatrio enables online verification and authorisation of payments through three payment services: the CCAvenue payment gateway (www.ccavenue.com), PayU payment gateway (www.payubiz.in) and through PayPal (https://www.paypal.com). Ayatrio.com is a Verisign secured site with 128 bit SSL encryption.</p>
+                    <p className="text-[14px] mb-[12px] text-[#484848]">emcronix enables online verification and authorisation of payments through three payment services: the CCAvenue payment gateway (www.ccavenue.com), PayU payment gateway (www.payubiz.in) and through PayPal (https://www.paypal.com). emcronix.com is a Verisign secured site with 128 bit SSL encryption.</p>
                 </div>
                 <div className="flex flex-col">
                     <h2 className="font-semibold text-[14px] mb-[8px] mt-[32px]">A. The following payment methods are accepted through the CCAvenue/PayU payment gateway:</h2>

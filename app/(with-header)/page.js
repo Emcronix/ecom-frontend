@@ -18,8 +18,8 @@ export default async function Home() {
       <OrganizationJsonLd
         useAppDir={true}
         type={"Organization"}
-        url="https://www.ayatrio.com"
-        name="Ayatrio"
+        url="https://www.emcronix.com"
+        name="emcronix"
         hasMerchantReturnPolicy={{
           "@type": "MerchantReturnPolicy",
           applicableCountry: ["IN"],
@@ -35,16 +35,16 @@ export default async function Home() {
           {
             telephone: "(+91) 9007404292",
             areaServed: "IN",
-            email: "info.ayatrio@gmail.com",
+            email: "info.emcronix@gmail.com",
             contactType: "Customer Service",
           },
         ]}
         sameAs={[
-          "https://www.facebook.com/ayatrio.india/",
-          "https://twitter.com/ayatrio_india/",
-          "https://www.instagram.com/ayatrio_india/",
-          "https://in.pinterest.com/ayatrio_india/",
-          "https://www.youtube.com/ayatrio/",
+          "https://www.facebook.com/emcronix.india/",
+          "https://twitter.com/emcronix_india/",
+          "https://www.instagram.com/emcronix_india/",
+          "https://in.pinterest.com/emcronix_india/",
+          "https://www.youtube.com/emcronix/",
         ]}
         address={{
           type: "PostalAddress",
@@ -53,14 +53,14 @@ export default async function Home() {
           postalCode: "700016",
           contactType: "Customer Service",
         }}
-        logo="https://ayatrio.com/api/og"
+        logo="https://emcronix.com/api/og"
       />
       <SiteLinksSearchBoxJsonLd
         useAppDir={true}
-        url="https://www.ayatrio.com"
+        url="https://www.emcronix.com"
         potentialActions={[
           {
-            target: "https://www.ayatrio.com/?search={search_term_string}",
+            target: "https://www.emcronix.com/?search={search_term_string}",
             queryInput: "required name=search_term_string",
           },
         ]}

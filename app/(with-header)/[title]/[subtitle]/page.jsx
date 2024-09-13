@@ -175,7 +175,7 @@ const Page = async ({ params }) => {
             roomData?.metadata?.title || roomData?.roomType || params.roomType
           }
           description={roomData?.summary || ""}
-          id={`https://www.ayatrio.com/rooms/${params.roomType}`}
+          id={`https://www.emcronix.com/rooms/${params.roomType}`}
         />
         <RoomsPage params={params.title} />;
       </>
@@ -197,7 +197,7 @@ const Page = async ({ params }) => {
           images={[suggestion.mainImage, suggestion.suggestionCardImage]}
           datePublished={suggestion.createdAt?.toString()}
           dateModified={suggestion.updatedAt?.toString()}
-          authorName={suggestion.author?.name || "Ayatrio"}
+          authorName={suggestion.author?.name || "emcronix"}
         />
         <Suggestion id={params.title.replace(/-/g, " ")} />;
       </>
@@ -211,7 +211,7 @@ const Page = async ({ params }) => {
         productName={product?.productTitle}
         images={productImages}
         description={product?.productDescription}
-        brand="Ayatrio"
+        brand="emcronix"
         offers={[
           {
             price: product?.specialprice?.price,
@@ -219,9 +219,9 @@ const Page = async ({ params }) => {
             priceValidUntil: product?.specialprice?.endDate,
             itemCondition: "https://schema.org/NewCondition",
             availability: "https://schema.org/InStock",
-            url: `https://www.ayatrio.com/${params.title?.replace(/-/g, " ")}`,
+            url: `https://www.emcronix.com/${params.title?.replace(/-/g, " ")}`,
             seller: {
-              name: product?.seller || "Ayatrio",
+              name: product?.seller || "emcronix",
             },
           },
         ]}
@@ -234,12 +234,12 @@ const Page = async ({ params }) => {
           {
             position: 1,
             name: "Home",
-            item: "https://www.ayatrio.com",
+            item: "https://www.emcronix.com",
           },
           {
             position: 2,
             name: product?.productTitle || params.title?.replace(/-/g, " "),
-            item: `https://www.ayatrio.com/${params.title?.replace(/-/g, " ")}`,
+            item: `https://www.emcronix.com/${params.title?.replace(/-/g, " ")}`,
           },
         ]}
       />

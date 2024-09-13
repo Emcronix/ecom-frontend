@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import ayatrioLogo from "../../public/images/ayatriologo.webp";
+import emcronixLogo from "../../public/images/logo/emcronix.png";
+
 import "./Expandbar.css";
 import axios from "axios";
 import Image from "next/image";
@@ -10,7 +11,7 @@ import { useDispatch } from "react-redux";
 import Link from "next/link";
 import { useDebounceValue } from "usehooks-ts";
 // import search from "../../assets/icons/search.svg";
-// import mainlogo from "../../assets/ayatriologo.png";
+// import mainlogo from "../../assets/emcronixlogo.png";
 import { searchProductsRequest } from "../Features/search/searchSlice";
 import { STORE_MAP_DATA } from "@/constants/store-map-data";
 import {
@@ -244,7 +245,7 @@ const Expandedbar = ({ searchText, onClose, onSearch }) => {
       )}
       <div
         className={`expanded-search-box block ${
-          path === "/ayatrio-map" ? "lg:pt-[50px] pt-[12px]" : "pt-[12px]"
+          path === "/emcronix-map" ? "lg:pt-[50px] pt-[12px]" : "pt-[12px]"
         }  bg-white sm:h-310px h-full  sm:w-full w-[100vw]  absolute right-0 top-0  z-[9999] md:mt-[-36px] ${
           path == "/" ? "sm:mt-[-36px]" : ""
         } `}
@@ -253,9 +254,9 @@ const Expandedbar = ({ searchText, onClose, onSearch }) => {
         <div className="flex flex-row pl-[24px] lg:pl-[0px] items-center  justify-between bg-white  w-full absolute left-0">
           <div className="logo hidden sm:block pl-[48px]">
             <Image
-              src={ayatrioLogo}
+              src={emcronixLogo}
               className="w-36 z-30"
-              alt="Ayatrio Logo"
+              alt="Emcronix Logo"
               priority
             />
           </div>
@@ -298,7 +299,7 @@ const Expandedbar = ({ searchText, onClose, onSearch }) => {
            
           `}
           >
-            {path === "/ayatrio-map" ? (
+            {path === "/emcronix-map" ? (
               <>
                 <div className="dropdown-item sm:font-medium  pb-2 text-[14px]  text-[#707072]">
                   Popular Searches
@@ -371,7 +372,7 @@ const Expandedbar = ({ searchText, onClose, onSearch }) => {
             )}
           </div>
 
-          {data && path !== "/ayatrio-map" && (
+          {data && path !== "/emcronix-map" && (
             <div className="grid sm:grid-cols-5 grid-cols-2 gap-4  px-[24px] lg:px-[0px] lg:mt-0 mt-10">
               {!data || isLoading ? (
                 <p className="flex flex-row justify-center items-center">
@@ -419,7 +420,7 @@ const Expandedbar = ({ searchText, onClose, onSearch }) => {
             </div>
           )}
 
-          {path === "/ayatrio-map" && searchQuery && (
+          {path === "/emcronix-map" && searchQuery && (
             <div className="grid sm:grid-cols-5 grid-cols-2 gap-2 sm:ml-44 px-[24px] lg:px-[0px] lg:mt-0 mt-10 ">
               {!stores ? (
                 <p className="flex flex-row justify-center items-center">

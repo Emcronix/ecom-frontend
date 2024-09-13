@@ -15,26 +15,26 @@ export const metadata = {
   metadataBase: new URL(BASE_URL),
 
   title: {
-    default: "Ayatrio India-Affordable Home Furnishing & Decor designs & ideas",
+    default: "emcronix India-Affordable Home Furnishing & Decor designs & ideas",
   },
   description:
     "Buy affordable Wallpaper, Flooring, Curtain, Blinds, Mattresses and more at online.✔55,000+ Choices ✔Free Shipping ✔No Cost EMI ✔Easy Returns",
   openGraph: {
-    title: "Ayatrio India-Affordable Home Furnishing & Decor designs & ideas",
+    title: "emcronix India-Affordable Home Furnishing & Decor designs & ideas",
     description:
       "Buy affordable Wallpaper, Flooring, Curtain, Blinds, Mattresses and more at online.✔55,000+ Choices ✔Free Shipping ✔No Cost EMI ✔Easy Returns",
     images: [
       {
-        url: "/ayatrio-room.jpg",
+        url: "/emcronix-room.jpg",
         width: 600,
         height: 600,
-        alt: "Ayatrio India-Affordable Home Furnishing & Decor designs & ideas",
+        alt: "emcronix India-Affordable Home Furnishing & Decor designs & ideas",
       },
     ],
   },
-  applicationName: "Ayatrio",
+  applicationName: "emcronix",
   keywords: [
-    "Ayatrio",
+    "emcronix",
     "Flooring store",
     "Wallpaper store",
     "Custom Wallpaper",
@@ -43,7 +43,7 @@ export const metadata = {
     "Blinds",
     "Laminate & Vinyl Floors",
   ],
-  authors: [{ name: "Ayatrio" }],
+  authors: [{ name: "emcronix" }],
   alternates: {
     canonical: BASE_URL,
     languages: {

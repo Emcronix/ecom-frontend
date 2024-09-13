@@ -91,7 +91,7 @@ const MainSlider = ({ sliderData }) => {
       onMouseLeave={() => {
         setIsHovering(false);
       }}
-      className="w-full h-[78vh] max-h-[546px] min-h-[300px] sm:mt-[96px] px-[12px] sm:px-0"
+      className="w-full h-[70vh] max-h-[70%] min-h-[300px] sm:mt-[96px] px-[12px] sm:px-0"
     >
       <div
         role="button"

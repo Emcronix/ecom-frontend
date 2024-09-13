@@ -327,7 +327,7 @@ function Header({ setIsHeaderMounted }) {
               <div className=" flex mainlogo items-center mr-20 justify-start">
                 <Link href="/">
                   <Image
-                    src="/images/ayatriologo.webp"
+                    src="/images/logo/emcronix.png"
                     alt="Ayatrio Logo"
                     width={300}
                     height={40}
@@ -557,7 +557,7 @@ function Header({ setIsHeaderMounted }) {
                   <div className="mainlogo">
                     <Link href="/">
                       <Image
-                        src="/images/ayatriologo.webp"
+                        src="/images/logo/emcronix.png"
                         alt="logo"
                         width={300}
                         height={40}

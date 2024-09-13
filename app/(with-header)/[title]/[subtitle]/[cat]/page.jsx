@@ -57,10 +57,10 @@ export async function generateMetadata({ params }) {
         description: offer.description || "",
         images: [
           {
-            url: "/ayatrio-room.jpg",
+            url: "/emcronix-room.jpg",
             width: 600,
             height: 600,
-            alt: "Ayatrio India-Affordable Home Furnishing & Decor designs & ideas",
+            alt: "emcronix India-Affordable Home Furnishing & Decor designs & ideas",
           },
         ],
       },
@@ -170,7 +170,7 @@ const page = async ({ params }) => {
             ? category?.description || ""
             : currentSubcategory?.description || ""
         }
-        id={`https://www.ayatrio.com/${params.title}/${params.subtitle}/${params.cat}`}
+        id={`https://www.emcronix.com/${params.title}/${params.subtitle}/${params.cat}`}
       />
       <BreadcrumbJsonLd
         useAppDir={true}
@@ -178,24 +178,24 @@ const page = async ({ params }) => {
           {
             position: 1,
             name: "Home",
-            item: "https://www.ayatrio.com/",
+            item: "https://www.emcronix.com/",
           },
           {
             position: 2,
             name: decodeURIComponent(params.title),
-            item: "https://www.ayatrio.com/" + params.title,
+            item: "https://www.emcronix.com/" + params.title,
           },
           {
             position: 3,
             name: decodeURIComponent(params.subtitle),
             item:
-              "https://www.ayatrio.com/" + params.title + "/" + params.subtitle,
+              "https://www.emcronix.com/" + params.title + "/" + params.subtitle,
           },
           {
             position: 4,
             name: decodeURIComponent(params.cat),
             item:
-              "https://www.ayatrio.com/" +
+              "https://www.emcronix.com/" +
               params.title +
               "/" +
               params.subtitle +
@@ -234,7 +234,7 @@ const page = async ({ params }) => {
               productName={product.productTitle}
               description={product.productDescription}
               images={images}
-              brand={product.brand || "Ayatrio"}
+              brand={product.brand || "emcronix"}
               offers={[
                 {
                   price: product.specialprice?.price,
@@ -244,7 +244,7 @@ const page = async ({ params }) => {
                   availability: "https://schema.org/InStock",
                   url: `${BASE_URL}/${product.productTitle}/${product.productId}`,
                   seller: {
-                    name: "Ayatrio",
+                    name: "emcronix",
                   },
                 },
               ]}
@@ -284,7 +284,7 @@ const page = async ({ params }) => {
               productName={product.productTitle}
               description={product.productDescription}
               images={images}
-              brand={product.brand || "Ayatrio"}
+              brand={product.brand || "emcronix"}
               offers={[
                 {
                   price: product.specialprice?.price,
@@ -294,7 +294,7 @@ const page = async ({ params }) => {
                   availability: "https://schema.org/InStock",
                   url: `${BASE_URL}/${product.productTitle}/${product.productId}`,
                   seller: {
-                    name: "Ayatrio",
+                    name: "emcronix",
                   },
                 },
               ]}

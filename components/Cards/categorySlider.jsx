@@ -21,7 +21,7 @@ const CategoriesSlider = async () => {
       <div className=" pt-[2rem] lg:pt-[52px] pl-[15px]  overflow-x-auto  relative w-full">
         {categories?.length > 0 && (
           <div className="flex flex-row group items-center justify-end gap-2 lg:mb-4">
-            <div className="back rounded-full   group-hover:opacity-60  opacity-0  absolute left-5 z-10">
+            {/* <div className="back rounded-full   group-hover:opacity-60  opacity-0  absolute left-5 z-10">
               <Image
                 loading="lazy"
                 src="/icons/backarrowhite.svg"
@@ -30,9 +30,9 @@ const CategoriesSlider = async () => {
                 alt="Arrow"
                 className=" h-[28px] lg:-mt-5  mb-[50px] sm:mb-0  w-[28px] "
               />
-            </div>
+            </div> */}
             <CategorySliderSwiper categories={categories} />
-            <div className="right rounded-full   group-hover:opacity-60 opacity-0   absolute right-5 z-10">
+            {/* <div className="right rounded-full   group-hover:opacity-60 opacity-0   absolute right-5 z-10">
               <Image
                 loading="lazy"
                 src="/icons/rightarro-white.svg"
@@ -41,7 +41,7 @@ const CategoriesSlider = async () => {
                 alt="Arrow"
                 className="  h-[28px] lg:-mt-5 -mt-10 w-[28px] "
               />
-            </div>
+            </div> */}
           </div>
         )}
       </div>

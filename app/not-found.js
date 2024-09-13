@@ -8,7 +8,7 @@ const Notfound = () => {
       <p className="text-2xl">Maybe the links below can be helpful.</p>
       <p>
         <Link href="/" className=" underline">
-        Go back to the Ayatrio homepage
+        Go back to the emcronix homepage
         </Link>
       </p>
     </main>

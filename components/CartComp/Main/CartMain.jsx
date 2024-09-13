@@ -437,7 +437,7 @@ const CartMain = () => {
                 <div className="mainlogo">
                   <Link href="/">
                     <Image
-                      src="/images/ayatriologo.webp"
+                      src="/images/emcronix.png"
                       alt="logo"
                       width={300}
                       height={40}

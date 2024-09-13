@@ -1,14 +1,14 @@
 import Image from "next/image";
-const JoinAyatrioFamily = () => {
+const JoinemcronixFamily = () => {
   return (
     <div className="space-y-4">
-      <p className="sm:text-base text-xl">Join Ayatrio Family</p>
+      <p className="sm:text-base text-xl">Join emcronix Family</p>
       <div>
-        <Image width={200} height={40} src="/images/ayatriologo.webp" alt="Ayatrio Logo" priority />
+        <Image width={200} height={40} src="/images/logo/emcronix.png" alt="emcronix Logo" priority />
       </div>
       <div>
         <p>
-          Enjoy member-only discounts & offers, early access to Ayatrio sale,
+          Enjoy member-only discounts & offers, early access to emcronix sale,
           delicious gift offers and much more. Join for free.
         </p>
       </div>
@@ -19,4 +19,4 @@ const JoinAyatrioFamily = () => {
   );
 };
 
-export default JoinAyatrioFamily;
+export default JoinemcronixFamily;

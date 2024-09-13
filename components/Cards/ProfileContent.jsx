@@ -124,7 +124,7 @@ const ProfileContent = ({ initialData }) => {
                   </Link>
                 )}
               </div>
-              <p className="lg:text-[16px] text-[12px] ">{person.user?.role}</p>
+              <p className="lg:text-[13px] text-[11px] text-center">{person.user?.role}</p>
             </div>
           </SwiperSlide>
         ))}

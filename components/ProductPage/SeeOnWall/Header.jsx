@@ -65,7 +65,7 @@ function Header() {
         <div className="flex">
           <Link href="/">
             <Image
-              src="/images/ayatriologo.webp"
+              src="/images/logo/emcronix.png"
               alt="Ayatrio Logo"
               width={300}
               height={40}

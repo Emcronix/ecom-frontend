@@ -63,7 +63,7 @@ const LoginComponent = () => {
           <div className="w-full">
             <div className="img__con111 sm:block flex items-center justify-center">
               <Image
-                src="/images/logo/ayatriologo.png"
+                src="/images/logo/emcronix.png"
                 width={200}
                 height={100}
                 alt="Ayatrio"

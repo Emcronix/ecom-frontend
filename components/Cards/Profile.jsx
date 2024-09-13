@@ -17,7 +17,7 @@ const Profile = async () => {
 
   return (
     <div>
-      <div className="pt-14 lg:pt-[90px] grid md:grid-cols-5 grid-cols-1 gap-4 bg-[#fafafa] lg:pl-[67px] sm:pl-[50px] pl-[20px]  ">
+      <div className="pt-2 lg:pt-[90px] grid md:grid-cols-5 grid-cols-1 gap-4 bg-[#fafafa] lg:pl-[67px] sm:pl-[50px] pl-[20px]  ">
         <div className="col-span-2 md:mb-auto mb-0">
           <div className="col-span-1 mt-4">
             <div className="mb-2 ">Let's exploring the future of living</div>

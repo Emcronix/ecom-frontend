@@ -10,7 +10,7 @@ const CategorySliderSwiper = ({ categories }) => {
     const params = {
       slidesPerView: 4.08,
       centeredSlides: false,
-      spaceBetween: 5,
+      spaceBetween: 5,  
       navigation: {
         nextEl: ".right",
         prevEl: ".back",
