@@ -111,9 +111,7 @@ export default async function sitemap() {
     ...offerPaths,
   ];
 
-  return paths.map((path) => {
-    return {
-      url: `${BASE_URL}${path}`,
-    };
-  });
+  return paths.map((path) => ({
+    url: `${BASE_URL}${path}`
+  }));
 }
