@@ -77,7 +77,7 @@ const ContactUsPage = () => {
             </div>
             <div>
               <h3 className="font-bold text-xl">Email us</h3>
-              <p>Mail to: customercare.india@AYATRIO.com</p>
+              <p>Mail to: customercare.india@Emcronix.com</p>
             </div>
           </div>
         </section>

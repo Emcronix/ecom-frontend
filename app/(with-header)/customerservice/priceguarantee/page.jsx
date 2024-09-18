@@ -6,7 +6,7 @@ export default function PriceGuarantee() {
         <div className="flex flex-col space-y-5 w-full">
           <h4 className="md:w-2/3 font-bold text-4xl">Prices and price tags</h4>
           <p className="md:w-2/3">
-            At AYATRIO you get low prices every day! Find all you need to know
+            At Emcronix you get low prices every day! Find all you need to know
             about a product on the price tag in store or on the product pages
             of this website. Whether it's what a product is made from, its
             size assembled or packaged, the how-to-care instructions, or of
@@ -16,7 +16,7 @@ export default function PriceGuarantee() {
             "To design a desk which costs $1,000 is easy for a furniture
             designer, but to design a functional and good desk which costs $50
             can only be done by the very best." - Ingvar Kamprad, founder of
-            AYATRIO
+            Emcronix
           </p>
         </div>
       </section>
@@ -33,12 +33,12 @@ export default function PriceGuarantee() {
             <div className="md:w-1/2 space-y-4">
               <p>
                 When you check-out you will see the delivery costs and have
-                the option to add assembly. (Remember, AYATRIO products are
+                the option to add assembly. (Remember, Emcronix products are
                 designed to be easy to assemble, so if you don't want to pay
                 why not give it a try?)
               </p>
               <p>
-                And if you are an AYATRIO Family member, you can buy some
+                And if you are an Emcronix Family member, you can buy some
                 products at a special price.
               </p>
               <p>

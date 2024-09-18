@@ -3,9 +3,9 @@ import { Suspense } from "react";
 import Splashscreen from "../Splashscreen/Splashscreen";
 import Cards from "../Cards";
 
-const MapButton = dynamic(() =>
-  import("../MapButton/MapButton").catch((err) => console.error(err))
-);
+// const MapButton = dynamic(() =>
+//   import("../MapButton/MapButton").catch((err) => console.error(err))
+// );
 
 const HomePage = async () => {
   return (
@@ -14,7 +14,7 @@ const HomePage = async () => {
         <Suspense fallback={<Splashscreen />}>
           <Cards />
         </Suspense>
-        <MapButton />
+        {/* <MapButton /> */}
       </div>
     </>
   );

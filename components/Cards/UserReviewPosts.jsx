@@ -90,8 +90,8 @@ const UserReviewPosts = ({ slidesPerView, SubcategoryName }) => {
               As seen on Instagram
             </h2>
             <p className="text-[14px] line-clamp-2 lg:line-clamp-none md:w-[75%]">
-              Get inspired by other Ayatrio shoppers! Share your photos on
-              Instagram and tag @Ayatrio for a chance to be featured.
+              Get inspired by other Emcronix shoppers! Share your photos on
+              Instagram and tag @Emcronix for a chance to be featured.
             </p>
           </div>
         </div>

@@ -1,10 +1,10 @@
 export const footerData = [
   {
     id: 1,
-    categoryHeading: "Ayatrio Family",
+    categoryHeading: "Emcronix Family",
     categoryData: [
       { id: 1, text: "Log in" },
-      { id: 2, text: "Join Ayatrio Family" },
+      { id: 2, text: "Join Emcronix Family" },
       { id: 3, text: "Member Offers" },
       { id: 4, text: "Member Workshop  Events" },
       { id: 5, text: "Member Feedback" },
@@ -45,12 +45,12 @@ export const footerData = [
   },
   {
     id: 4,
-    categoryHeading: "About Ayatrio",
+    categoryHeading: "About Emcronix",
     categoryData: [
-      { id: 1, text: "This is Ayatrio" },
+      { id: 1, text: "This is Emcronix" },
       { id: 2, text: "Sustainability" },
-      { id: 3, text: "Ayatrio Stores" },
-      { id: 4, text: "Ayatrio for Business" },
+      { id: 3, text: "Emcronix Stores" },
+      { id: 4, text: "Emcronix for Business" },
       { id: 5, text: "Member Feedback" },
     ],
   },

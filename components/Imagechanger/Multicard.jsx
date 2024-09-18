@@ -27,7 +27,7 @@ const Multicard = ({ forhomePage }) => {
       >
         <div className="w-full flex justify-between items-center">
           <h2 className="font-semibold text-2xl pb-[20px] pt-[30px]">
-            Ways to shopping at Ayatrio
+            Ways to shopping at Emcronix
           </h2>
           <div className=" flex text-2xl cursor-pointer text-white rounded-full gap-4">
             <Image

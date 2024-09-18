@@ -49,7 +49,7 @@ const MainSlider = ({ sliderData }) => {
 
   useEffect(() => {
     const params = {
-      centeredSlides: true,
+      centeredSlides: false,
       draggable: false,
       loop: true,
       autoplay: {
@@ -61,16 +61,16 @@ const MainSlider = ({ sliderData }) => {
         nextEl: ".nav-next",
         prevEl: ".nav-prev",
       },
-      spaceBetween: 12,
+      spaceBetween: 0,
       breakpoints: {
         350: {
           slidesPerView: 1,
         },
         640: {
-          slidesPerView: 1.25,
+          slidesPerView: 1,
         },
         1024: {
-          slidesPerView: 1.36,
+          slidesPerView: 1,
           touchRatio: 0,
         },
       },
@@ -91,7 +91,7 @@ const MainSlider = ({ sliderData }) => {
       onMouseLeave={() => {
         setIsHovering(false);
       }}
-      className="w-full h-[70vh] max-h-[70%] min-h-[300px] sm:mt-[96px] px-[12px] sm:px-0"
+      className="w-full h-[60vh] max-h-[60%] min-h-[300px] sm:mt-[96px] px-[12px] sm:px-0"
     >
       <div
         role="button"

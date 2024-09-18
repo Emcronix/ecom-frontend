@@ -51,8 +51,7 @@ const CategorySliderSwiper = ({ categories }) => {
         className="swiper-test"
         style={{
           "--swiper-navigation-size": "24px",
-          maxHeight: "180px",
-          marginTop: "12px",
+          maxHeight: "180px"
         }}
       >
         {categories?.map((curElement, idx) => {

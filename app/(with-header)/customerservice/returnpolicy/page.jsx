@@ -20,11 +20,11 @@ export default function Home() {
         </div>
         <p className="md:w-2/3">
           With our return policy, we have ensured that our customers have a safe
-          shopping experience with AYATRIO. Our mission is to enhance the
+          shopping experience with Emcronix. Our mission is to enhance the
           customer experience and to enable our customers in making informed
           decisions.
         </p>
-        <h2 className="font-bold text-xl">AYATRIO India:</h2>
+        <h2 className="font-bold text-xl">Emcronix India:</h2>
         <div className="space-y-5 flex flex-col md:w-2/3">
           <h4 className="font-bold">Returns Policy - Effective Nov, 2022</h4>
           
@@ -33,7 +33,7 @@ export default function Home() {
               purchase
             </li>
             <li>
-               AYATRIO Family members: Returns or Exchange within 90 Days
+               Emcronix Family members: Returns or Exchange within 90 Days
               from the date of purchase
             </li>
             <li>
@@ -71,7 +71,7 @@ export default function Home() {
               from our full price mattress range. If the new mattress is higher
               in price you will need to pay the difference, if the mattress you
               select is lower in price the difference will be refunded to you on
-              an AYATRIO gift card.
+              an Emcronix gift card.
             </li>
           
         </div>
@@ -97,7 +97,7 @@ export default function Home() {
         </div>
         <div className="space-y-7 flex flex-col md:w-2/3">
           <h4 className="font-bold">
-            AYATRIO India reserves the rights to reject/ refuse the returns and
+            Emcronix India reserves the rights to reject/ refuse the returns and
             refunds in case:
           </h4>
             <li> Articles are not in their original packaging</li>
@@ -114,13 +114,13 @@ export default function Home() {
         </div>
         <div className="space-y-7 flex flex-col md:w-2/3">
           <h4 className="font-bold">Have more questions about returns?</h4>
-            <li> Write to us at customercare.india@AYATRIO.com</li>
+            <li> Write to us at customercare.india@Emcronix.com</li>
             <li> Call us at 18004194532 (8 am - 10 pm)</li>
           
         </div>
         <p className="flex flex-col md:w-2/3">
           The terms and conditions set out in this return policy apply to all
-          goods purchased from AYATRIO India. This return policy is in addition
+          goods purchased from Emcronix India. This return policy is in addition
           to the customer's statutory rights.
         </p>
         <div className="flex flex-col">

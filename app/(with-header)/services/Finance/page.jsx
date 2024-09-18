@@ -12,7 +12,7 @@ export default function FinanceServicesPage() {
                             Financial services
                         </h2>
                         <p className="text-justify px-3 opacity-90 mb-3">
-                            At Ayatrio, we think everyone deserves a well-designed, functional home – and that paying for it shouldn’t be difficult.
+                            At Emcronix, we think everyone deserves a well-designed, functional home – and that paying for it shouldn’t be difficult.
                         </p>
                         <p className="text-justify px-3 opacity-90">
                             That's why we offer flexible payment options that allow you to realize your dream home today.
@@ -91,7 +91,7 @@ export default function FinanceServicesPage() {
                 <div className="w-full md:w-[70%]">
                     <Image loading="lazy"
                         src="/images/services/FinanceServices/a-couple-inside-an-store.jpg"
-                        alt="A couple inside an Ayatrio store shopping for a kitchen sink."
+                        alt="A couple inside an Emcronix store shopping for a kitchen sink."
                         width={300}
                         height={300}
                         className="w-full h-full object-cover"
@@ -109,7 +109,7 @@ export default function FinanceServicesPage() {
                         </ul>
                         <p><a href="" className="underline opacity-90 hover:opacity-100">Learn more about PayPlan by RBC™</a></p>
                         <p>PayPlan by RBC installment loans are provided by RBC Ampli Inc., a wholly-owned subsidiary of Royal Bank of Canada.</p>
-                        <p><strong>PayPlan is available in Ayatrio stores only. PayPlan is not currently available at Ayatrio St. Catherines or Windsor Plan and order points, or for orders placed online or by telephone.</strong></p>
+                        <p><strong>PayPlan is available in Emcronix stores only. PayPlan is not currently available at Emcronix St. Catherines or Windsor Plan and order points, or for orders placed online or by telephone.</strong></p>
                     </div>
                     <a
                         href="/images/services/FinanceServices/"
@@ -145,7 +145,7 @@ export default function FinanceServicesPage() {
                     <div className="opacity-90 mb-20">
                         <p className="font-bold mb-4">In store payment options:</p>
                         <ul className="list-disc list-inside ml-10 space-y-2">
-                            <li>Ayatrio Gift Cards</li>
+                            <li>Emcronix Gift Cards</li>
                             <li>Interac/Debit</li>
                             <li>VISA</li>
                             <li>MasterCard</li>
@@ -170,7 +170,7 @@ export default function FinanceServicesPage() {
                     <div className="opacity-90 mb-8">
                         <p className="font-bold mb-4">Online payment options:</p>
                         <ul className="list-disc list-inside ml-10 space-y-2">
-                            <li>Ayatrio gift cards</li>
+                            <li>Emcronix gift cards</li>
                             <li>VISA credit and debit cards</li>
                             <li>MasterCard credit and debit cards</li>
                             <li>American Express</li>

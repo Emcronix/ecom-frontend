@@ -53,10 +53,10 @@ const SustainabilityPage = () => {
             <div className="flex flex-col space-y-5">
               <h1 className="font-bold text-4xl">Being sustainable</h1>
               <p>
-                How sustainable is AYATRIO? Well, with kitchen fronts made of
+                How sustainable is Emcronix? Well, with kitchen fronts made of
                 recycled plastic bottles, taps that save on water and
                 electricity, being a leading light on LED...it's clear we want
-                to inspire change. Because, as the founder of AYATRIO, Ingvar
+                to inspire change. Because, as the founder of Emcronix, Ingvar
                 Kamprad, once said: ‘No method is more effective than the good
                 example.’
               </p>
@@ -67,7 +67,7 @@ const SustainabilityPage = () => {
             </div>
             <div>
               <p className="underline font-bold">
-                Highlights from the AYATRIO Sustainability Report FY21
+                Highlights from the Emcronix Sustainability Report FY21
               </p>
               <p>
                 In a challenging year, when life at home has been more important
@@ -95,7 +95,7 @@ const SustainabilityPage = () => {
         <section>
           <div className="flex flex-col space-y-6">
             <div className="flex font-bold text-lg underline">
-              AYATRIO Sustainability Report FY-21
+              Emcronix Sustainability Report FY-21
             </div>
             <div className="flex flex-col md:grid md:grid-cols-3 gap-7">
               {gridData.map((curElement) => {

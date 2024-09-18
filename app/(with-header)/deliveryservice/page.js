@@ -15,7 +15,7 @@ const DeliveryServicePage = () => {
                 </div>
                 <div className="flex-col space-y-7 md:w-1/2">
                   <p>
-                    We can deliver your AYATRIO purchases to your home or
+                    We can deliver your Emcronix purchases to your home or
                     workplace. We can deliver to your front door, or we can take
                     your delivery items all the way into your room of choice.
                   </p>

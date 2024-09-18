@@ -11,7 +11,7 @@ const RankedProducts = dynamic(() => import("./RankedProducts"));
 const Suggestion = dynamic(() => import("./Suggestion"));
 const Cookies = dynamic(() => import("./Cookies"));
 const MulticardService = dynamic(() => import("./MultiCardService"));
-const ShopByRoomSlider = dynamic(() => import("./ShopByRoomSlider"));
+// const ShopByRoomSlider = dynamic(() => import("./ShopByRoomSlider"));
 const Display = dynamic(() => import("./Display"));
 const RoomCard = dynamic(() => import("./RoomCard"));
 const DataSliderWrapper = dynamic(() => import("./DataSliderWrapper"));
@@ -52,7 +52,7 @@ function Cards() {
       </div>
 
       <Multicard />
-      <ShopByRoomSlider />
+      {/* <ShopByRoomSlider /> */}
       <Profile />
       <Suggestion />
 

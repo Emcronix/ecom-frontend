@@ -7,15 +7,15 @@ export default function BuyBackPage() {
         <div className='md:px-[67px] mx-auto px-[20px]'>
             <section className="w-full pt-40">
                 <h2 className="text-black text-2xl font-semibold mb-12">
-                    Ayatrio Sell-back programs
+                    Emcronix Sell-back programs
                 </h2>
                 <div className="flex flex-wrap md:flex-nowrap gap-y-3">
                     <div className="w-full md:w-1/2 mr-3">
                         <p className="text-justify px-3 opacity-90 mb-3">
-                            Every year, millions of pieces of secondhand furniture go to waste. That’s why we’re buying back your used Ayatrio furniture, to give chairs, shelves or chests of drawers as many lives as possible.
+                            Every year, millions of pieces of secondhand furniture go to waste. That’s why we’re buying back your used Emcronix furniture, to give chairs, shelves or chests of drawers as many lives as possible.
                         </p>
                         <p className="text-justify px-3 opacity-90 mb-3">
-                            With the Ayatrio Sell-back program, Ayatrio Family members can receive in-store credit and give unwanted furniture a second life. This way you allow someone else to enjoy your second-hand Ayatrio furniture instead of having to buy something brand new.
+                            With the Emcronix Sell-back program, Emcronix Family members can receive in-store credit and give unwanted furniture a second life. This way you allow someone else to enjoy your second-hand Emcronix furniture instead of having to buy something brand new.
                         </p>
                         <p className="text-justify px-3 opacity-90 mb-3">
                             What your used furniture is worth will vary, but you’ll get more in-store credit for pieces that are in better condition or like-new.
@@ -59,22 +59,22 @@ export default function BuyBackPage() {
 
             <section id="works">
                 <div className="w-full md:w-1/2 mb-16">
-                    <h2 className="text-black text-2xl font-semibold mb-12 mt-[20px]">How the Ayatrio Sell-back program works</h2>
+                    <h2 className="text-black text-2xl font-semibold mb-12 mt-[20px]">How the Emcronix Sell-back program works</h2>
 
                     <ol type='1' className="list-decimal pl-8 ">
 
 
                         <li className="ml-4 my-4 opacity-70 text-[15px]">
-                            Send us 4 or more photos including the Ayatrio logo and/or article number of the item you would like to sell.
+                            Send us 4 or more photos including the Emcronix logo and/or article number of the item you would like to sell.
                         </li>
                         <li className="ml-4 my-4 opacity-70 text-[15px]">
                             Allow 5 business days for an assessment, then check your application status. If the item is still processing, please wait 1 day and check again.
                         </li>
                         <li className="ml-4 my-4 opacity-70 text-[15px]">
-                            If your application is approved, bring your fully assembled Ayatrio item to your selected store within 30 days of the date item was accepted, along with your Ayatrio Family card and unique application code to get your in-store credit.
+                            If your application is approved, bring your fully assembled Emcronix item to your selected store within 30 days of the date item was accepted, along with your Emcronix Family card and unique application code to get your in-store credit.
                         </li>
                         <li className="ml-4 my-4 opacity-70 text-[15px]">
-                            Pat yourself on the back. You’ve done a good deed. You’re helping us prolong product life, promote second-hand furniture, and waste less. Thanks for contributing to a more circular Ayatrio and to becoming people and planet positive!
+                            Pat yourself on the back. You’ve done a good deed. You’re helping us prolong product life, promote second-hand furniture, and waste less. Thanks for contributing to a more circular Emcronix and to becoming people and planet positive!
                         </li>
                         <li className="ml-4 my-4 opacity-70 text-[15px]">
                             Looking to replace that item you just sold back with another? Check out the As-is online marketplace for some more sustainable deals.
@@ -89,9 +89,9 @@ export default function BuyBackPage() {
 
             <section id='product'>
                 <div className="md:w-2/3 mt-6">
-                    <h2 className="text-black text-2xl font-semibold mb-12">What second hand Ayatrio furniture does Ayatrio buy back?</h2>
+                    <h2 className="text-black text-2xl font-semibold mb-12">What second hand Emcronix furniture does Emcronix buy back?</h2>
 
-                    <h4 className='text-black text-lg font-bold my-6'>Ayatrio products that qualify for sell-back must be:</h4>
+                    <h4 className='text-black text-lg font-bold my-6'>Emcronix products that qualify for sell-back must be:</h4>
                     <ol className="px-10 opacity-80 list-decimal">
                         <li className="mb-3">In good, resellable condition</li>
                         <li className="mb-3">Listed below as eligible</li>
@@ -113,7 +113,7 @@ export default function BuyBackPage() {
                         <div className="w-full md:w-1/2 px-4">
                             <CabinetItem
                                 imageSrc="/images/services/Buy-Back/img1.jpg"
-                                title="Second-hand furniture Ayatrio buys back"
+                                title="Second-hand furniture Emcronix buys back"
                                 description={[
                                     'Bookcases and shelf units',
                                     'Chest of Drawers, Nightstands',
@@ -135,7 +135,7 @@ export default function BuyBackPage() {
                                 title="Cabinet with door (base, wall or high), starting at $119/cabinet"
                                 description={[
                                     "Unfortunately, we are currently unable to accept items from the categories listed below. However, we are always looking for new opportunities to improve our services so do check back in the future.',Unfortunately, we are currently unable to accept items from the categories listed below. However, we are always looking for new opportunities to improve our services so do check back in the future.",
-                                    'Non-Ayatrio products',
+                                    'Non-Emcronix products',
                                     'Products that have been used outside, including outdoor furniture',
                                     'Hacked or modified products',
                                     'Market hall items, including cookware and lighting fixtures',

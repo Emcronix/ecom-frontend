@@ -94,7 +94,7 @@ const Footer = () => {
           <ul className="flex flex-wrap pt-2.5 justify-center text-gray-900 ">
             <li>
               <a href="#" className="me-4 text-xs">
-                © Ayatrio furnishing · 2015-2023
+                © Emcronix furnishing · 2015-2023
               </a>
             </li>
           </ul>

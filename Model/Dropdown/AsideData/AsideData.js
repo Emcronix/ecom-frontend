@@ -12,10 +12,7 @@ export const headerLinks = [
     label: "Mobile Accessories",
   },
   {
-    label: "Sports",
-  },
-  {
-    label: "Offers",
+    label: "Sports Fitness",
   }
 ];
 

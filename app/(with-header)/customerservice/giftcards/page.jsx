@@ -7,7 +7,7 @@ const GiftCards = () => {
     <div>
       <div className="mt-20 sm:px-[50px] px-[20px]  space-y-10">
         <div className="space-y-7">
-          <h1 className="font-bold text-4xl pt-10">AYATRIO Gift Cards</h1>
+          <h1 className="font-bold text-4xl pt-10">Emcronix Gift Cards</h1>
           <hr />
           {/* Three options with images section starts */}
           <section>
@@ -26,14 +26,14 @@ const GiftCards = () => {
                   <div className="flex flex-col gap-1 p-4">
                     <h2 className="font-bold text-xl">Digital Gift Card</h2>
                     <p>
-                      You can buy one or more AYATRIO Gift cards with any value up to 10,000 INR through our website, in just a few steps. Your AYATRIO Gift card is emailed straight to your inbox. Bought gift cards can only be redeemed in stores (for now).
+                      You can buy one or more Emcronix Gift cards with any value up to 10,000 INR through our website, in just a few steps. Your Emcronix Gift card is emailed straight to your inbox. Bought gift cards can only be redeemed in stores (for now).
                     </p>
                     <p>
                       Share the gift card number and its PIN with any of our checkout co-workers for gift card redemption.
                     </p>
                     <div>
                       <button className="bg-black text-white rounded-3xl py-2 px-4 text-sm font-semibold">
-                        Buy AYATRIO Gift Card online
+                        Buy Emcronix Gift Card online
                       </button>
                     </div>
                   </div>
@@ -51,7 +51,7 @@ const GiftCards = () => {
                   <div className="flex flex-col gap-1 p-4">
                     <h2 className="font-bold text-xl">Physical Gift Card</h2>
                     <p>
-                      You can buy a physical AYATRIO Gift Card with any value up to 10,000 INR at AYATRIO stores (in Hyderabad, Mumbai (Navi Mumbai, Worli, RCity) and Bangalore (Nagasandra).
+                      You can buy a physical Emcronix Gift Card with any value up to 10,000 INR at Emcronix stores (in Hyderabad, Mumbai (Navi Mumbai, Worli, RCity) and Bangalore (Nagasandra).
                     </p>
                   </div>
                 </div>
@@ -73,11 +73,11 @@ const GiftCards = () => {
                       Please submit a gift card request by filling out the webform. To access the webform, click the link below, Enter your company details and upload any files if needed.
                     </p>
                     <p>
-                      One of our AYATRIO co-workers will reach out to you for further information and processing gift cards.
+                      One of our Emcronix co-workers will reach out to you for further information and processing gift cards.
                     </p>
                     <div>
                       <button className="bg-black text-white rounded-3xl p-3 px-4 text-xs font-semibold">
-                        Buy AYATRIO Gift Card for Business
+                        Buy Emcronix Gift Card for Business
                       </button>
                     </div>
                   </div>
@@ -91,8 +91,8 @@ const GiftCards = () => {
             <p>
               You will be directed to a third-party site operated by a trusted
               partner, Frizbee
-              (https://AYATRIOin.frizbee-solutions.com/home/digital) You can
-              always return to finish your shopping on AYATRIO.in
+              (https://Emcronixin.frizbee-solutions.com/home/digital) You can
+              always return to finish your shopping on Emcronix.in
             </p>
           </div>
           {/* image and text section starts */}
@@ -108,18 +108,18 @@ const GiftCards = () => {
               </div>
               <div className="space-y-6 md:w-1/2">
                 <h2 className="font-bold text-2xl">
-                  An AYATRIO Gift Card is always a great surprise!{" "}
+                  An Emcronix Gift Card is always a great surprise!{" "}
                 </h2>
                 <p>
-                  Everyone loves receiving an AYATRIO Gift Card. Whether that’s
+                  Everyone loves receiving an Emcronix Gift Card. Whether that’s
                   to mark a birthday, for a special occasion or just to show how
                   much you care.
                 </p>
                 <p>
-                  With an AYATRIO Gift Card they can choose just what they
+                  With an Emcronix Gift Card they can choose just what they
                   always wanted. Which will make you happy too.
                 </p>
-                <p className="underline">Buy an AYATRIO Gift Card</p>
+                <p className="underline">Buy an Emcronix Gift Card</p>
                 <p className="underline">Check the Gift Card balance</p>
                 <p className="underline">FAQs</p>
               </div>
@@ -194,7 +194,7 @@ const GiftCards = () => {
                     font-family="Arial"
                     fill="black"
                   >
-                    AYATRIO
+                    Emcronix
                   </text>
 
 

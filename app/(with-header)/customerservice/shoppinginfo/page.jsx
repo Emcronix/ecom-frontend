@@ -9,18 +9,18 @@ export default function ShoppingInfo() {
   ];
   return (
     <div className="mt-20 sm:px-[50px] px-[20px]">
-      <h1 className="font-bold text-4xl pb-6 pt-10" >Shopping at AYATRIO</h1>
+      <h1 className="font-bold text-4xl pb-6 pt-10" >Shopping at Emcronix</h1>
       <div className="sm:flex sm:flex-row flex-col pb-6">
         <div className="basis-2/4 flex grow">
           <div>
             <p className="font-semibold text-md">
-              There are a few ways to shop at AYATRIO. Some of them let you shop
+              There are a few ways to shop at Emcronix. Some of them let you shop
               from the comfort of your own home – although we’ll always have
               your favorite Swedish delicacy available at our restaurant for
-              those that choose to visit the AYATRIO store.{" "}
+              those that choose to visit the Emcronix store.{" "}
             </p>
             <p className="font-semibold text-md mt-2">
-              Discover how to shop at AYATRIO and how AYATRIO can come to you,
+              Discover how to shop at Emcronix and how Emcronix can come to you,
               whether you’re looking for any support buy online, over the phone,
               or plan your dream home.
             </p>
@@ -38,7 +38,7 @@ export default function ShoppingInfo() {
         </div>
       </div>
       <h2 className="font-bold text-xl mb-10">
-        AYATRIO stores and order and collection point
+        Emcronix stores and order and collection point
       </h2>
       <div className="sm:flex sm:flex-row flex-col pb-6">
         <div className="basis-2/4 flex-grow">
@@ -53,9 +53,9 @@ export default function ShoppingInfo() {
           <div className="space-y-5 pl-2">
             <p>
               From the colour of your kitchen cabinets to the height of your
-              houseplant, with AYATRIO, you’re in complete control. At our
+              houseplant, with Emcronix, you’re in complete control. At our
               stores, you can get inspired, touch and feel our products, get
-              professional help from one of our AYATRIO co-workers and get
+              professional help from one of our Emcronix co-workers and get
               inspired.
             </p>
             <p>
@@ -69,7 +69,7 @@ export default function ShoppingInfo() {
               range, order for delivery or collection and buy selected products
               to take home the same day.
             </p>
-            <p className="font-semibold">AYATRIO Large store </p>
+            <p className="font-semibold">Emcronix Large store </p>
             {shoppingGuide.map((curElement) => {
               return (
                 <p>{curElement.content}</p>
@@ -88,7 +88,7 @@ export default function ShoppingInfo() {
             })}
             <div className="flex flex-col space-y-10 items-start mt-10">
               <button className="bg-black text-white rounded-3xl p-3 px-4 text-sm font-semibold">
-                find you nearest AYATRIO store
+                find you nearest Emcronix store
               </button>
               <button className="bg-black text-white rounded-3xl p-3 px-4 text-sm font-semibold">
                 Click & Collect
@@ -145,7 +145,7 @@ export default function ShoppingInfo() {
           Contact us
         </button>
       </div>
-      <h2 className="font-bold text-xl mb-10 mt-10">AYATRIO for Business</h2>
+      <h2 className="font-bold text-xl mb-10 mt-10">Emcronix for Business</h2>
       <div className="sm:flex sm:flex-row flex-col gap-3 pb-8">
         <div className="basis-2/4 flex-grow">
           <div>
@@ -161,14 +161,14 @@ export default function ShoppingInfo() {
         <div className="basis-2/4 flex-grow">
           <div className="space-y-4">
             <p>
-              For a better everyday work life, AYATRIO for Business has a range
+              For a better everyday work life, Emcronix for Business has a range
               of personalized services and design tools.
             </p>
             <p>
               If there’s anything you need help with when it comes to furnishing
               your business premises, you can discuss your ideas with design
               professionals, check out the online planning tools or visit the
-              AYATRIO for Business team in store.
+              Emcronix for Business team in store.
             </p>
             <p>
               We have inspiration for a range of industries including retail,
@@ -176,7 +176,7 @@ export default function ShoppingInfo() {
               restaurants, cafés and accommodation.
             </p>
             <button className="bg-black text-white rounded-3xl p-3 px-4 text-sm font-semibold">
-              AYATRIO for business
+              Emcronix for business
             </button>
           </div>
         </div>

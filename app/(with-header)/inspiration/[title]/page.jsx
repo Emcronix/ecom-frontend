@@ -34,7 +34,7 @@ const SuggestionPage = async ({ params: { title } }) => {
           images={[suggestion.mainImage, suggestion.suggestionCardImage]}
           datePublished={suggestion.createdAt?.toString()}
           dateModified={suggestion.updatedAt?.toString()}
-          authorName={suggestion.author?.name || "Ayatrio"}
+          authorName={suggestion.author?.name || "Emcronix"}
         />
       ) : null}
       <Suggestion id={title.replace(/-/g, " ")} />;

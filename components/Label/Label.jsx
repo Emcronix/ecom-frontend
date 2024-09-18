@@ -24,7 +24,7 @@ const Label = ({ data }) => {
               className="flex flex-col basis-3/4 lg:w-28  flex-grow relative  m-[12px] "
             >
               <p className="text-[12px] line-clamp-1 mb-[4px]  text-[#0152be] font-semibold">
-                Ayatrio Family price
+                Emcronix Family price
               </p>
               <h2 className="text-[12px] line-clamp-1  font-bold">
                 {data?.productTitle}

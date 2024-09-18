@@ -5,23 +5,23 @@ const termsAndConditions = [
   {
     id: 1,
     question: "Terms and Conditions",
-    answer: `AYATRIO India – Services (Assembly and Installation)
+    answer: `Emcronix India – Services (Assembly and Installation)
 
-    - The workmanship guarantee period is valid from the date of completion of the kitchen installation (once the completion certificate is signed off by AYATRIO Co-workers/ authorized AYATRIO vendor/associates/partners and the customer
+    - The workmanship guarantee period is valid from the date of completion of the kitchen installation (once the completion certificate is signed off by Emcronix Co-workers/ authorized Emcronix vendor/associates/partners and the customer
     - The workmanship guarantee is valid for 3 years
     - The customer has to provide the readiness of the site for the installation to begin, within 90 days from the date of delivery of the kitchen articles
     - Kitchen articles, assembly, installation, transport, and workmanship are guaranteed at the site of first installed only
     - Assembly and Installation, maintenance and alignment of drawers, door fronts, hinges within the 1st year of service
     - Installation and Assembly within 14 Days (on confirmation of the site readiness and the delivery of the articles on site)
-    - AYATRIO INDIA guarantees the sink if bought and installed from AYATRIO INDIA
-    - AYATRIO INDIA guarantee is applicable for articles, appliances, and workmanship only if the civil changes are made as recommended by AYATRIO INDIA co-workers or AYATRIO INDIA authorized vendors/associates/partners during the PIV (Pre Installation Visit)
-    - AYATRIO INDIA guarantees are applied only if the customer reaches out to our touchpoints via the store, Customer Service Center or AYATRIO India website
-    - AYATRIO INDIA will not be responsible if the customer reaches out to the AYATRIO INDIA authorized vendors/associates/partners directly for purchase or repairs or replacement of articles or services
+    - Emcronix INDIA guarantees the sink if bought and installed from Emcronix INDIA
+    - Emcronix INDIA guarantee is applicable for articles, appliances, and workmanship only if the civil changes are made as recommended by Emcronix INDIA co-workers or Emcronix INDIA authorized vendors/associates/partners during the PIV (Pre Installation Visit)
+    - Emcronix INDIA guarantees are applied only if the customer reaches out to our touchpoints via the store, Customer Service Center or Emcronix India website
+    - Emcronix INDIA will not be responsible if the customer reaches out to the Emcronix INDIA authorized vendors/associates/partners directly for purchase or repairs or replacement of articles or services
     - In cases of conflict at the time of installation, the customer will be refunded only for articles that are unpacked. The customer is deemed liable and has complete ownership of the articles and products that are unpacked and assembled
-    - In case of dispute or conflicts, AYATRIO INDIA is not liable to refund for the services availed by the customer for the purchase of the kitchen like the transport/delivery cost, installation and assembly cost
+    - In case of dispute or conflicts, Emcronix INDIA is not liable to refund for the services availed by the customer for the purchase of the kitchen like the transport/delivery cost, installation and assembly cost
     - In cases of conceptional damages, the customer is liable to purchase the articles/ products or spares that has to be replaced or repaired
     - Measurement, Planning and Delivery fees are non-refundable in case of non-utilization, conflict or cancellation of the order
-    - AYATRIO INDIA or AYATRIO INDIA vendors/associates/partners do not undertake any Civil changes on the site`,
+    - Emcronix INDIA or Emcronix INDIA vendors/associates/partners do not undertake any Civil changes on the site`,
   },
 ];
 
@@ -69,7 +69,7 @@ const InstallationServicePage = () => {
                 </p>
                 <p>
                   *Installation service is only available for kitchens purchased
-                  from AYATRIO.
+                  from Emcronix.
                 </p>
               </div>
               <div>
@@ -90,10 +90,10 @@ const InstallationServicePage = () => {
                 </p>
               </div>
               <div>
-                <p>AYATRIO Installation service includes the following:</p>
+                <p>Emcronix Installation service includes the following:</p>
                 <p>
                   Kitchen cabinets, interiors, door fronts, cover panels, legs
-                  and plinths, handles, integrated lighting, sink, tap and AYATRIO
+                  and plinths, handles, integrated lighting, sink, tap and Emcronix
                   purchased appliances (excluding extractor hood)
                 </p>
               </div>

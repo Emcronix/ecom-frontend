@@ -64,9 +64,9 @@ export default function Services() {
             </div>
             <div className="md:w-2/3">
               <p>
-                At AYATRIO, you can do everything yourself. From collecting all
+                At Emcronix, you can do everything yourself. From collecting all
                 your products in store, to transporting and assembling them. But
-                of course, you don't have to. AYATRIO offers a wide range of
+                of course, you don't have to. Emcronix offers a wide range of
                 useful services to help you purchase, transport and assemble
                 your products.
               </p>

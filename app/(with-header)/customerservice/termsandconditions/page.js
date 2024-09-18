@@ -10,15 +10,15 @@ const page = () => {
     <div className="flex flex-col sm:w-2/3 mt-20 sm:px-[50px] px-[20px] space-y-5">
       <div>
         <h1 className="text-4xl font-bold">
-          AYATRIO Terms, Conditions and Privacy notice
+          Emcronix Terms, Conditions and Privacy notice
         </h1>
       </div>
       <hr />
       {/* e-commerce section starts */}
       <div className="space-y-3">
-        <p className="font-semibold">AYATRIO.in (E-commerce)</p>
+        <p className="font-semibold">Emcronix.in (E-commerce)</p>
         <p>
-          We now bring AYATRIO to your doorstep with a full range of articles in
+          We now bring Emcronix to your doorstep with a full range of articles in
           various cities in India – Hyderabad; Mumbai; Pune; Ahmedabad; Surat;
           Vadodara; Bangalore.
         </p>
@@ -29,7 +29,7 @@ const page = () => {
       <hr />
       {/* family membership section starts */}
       <div className="space-y-3">
-        <p className="font-semibold">AYATRIO Family membership</p>
+        <p className="font-semibold">Emcronix Family membership</p>
         {familyMembership.map((curElement) => {
           return <li>{curElement.text}</li>;
         })}
@@ -37,7 +37,7 @@ const page = () => {
       <hr />
       {/* family rewards section starts */}
       <div className="space-y-3">
-        <p className="font-semibold">AYATRIO Family Rewards</p>
+        <p className="font-semibold">Emcronix Family Rewards</p>
         {familyRewards.map((curElement) => {
           return <li>{curElement.text}</li>;
         })}

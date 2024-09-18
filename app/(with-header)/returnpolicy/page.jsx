@@ -6,7 +6,7 @@ export default function Home() {
       id: 1,
       question: "What do we mean when we say change of mind?",
       answer:
-        "You can purchase products from us in store or online and we will accept them back for a full refund in the original method of payment up to 60 days after the purchase, 90 days if you are a AYATRIO Family or Business member.",
+        "You can purchase products from us in store or online and we will accept them back for a full refund in the original method of payment up to 60 days after the purchase, 90 days if you are a Emcronix Family or Business member.",
     },
     {
       id: 2,
@@ -55,11 +55,11 @@ export default function Home() {
         </div>
         <p className="md:w-2/3">
           With our return policy, we have ensured that our customers have a safe
-          shopping experience with AYATRIO. Our mission is to enhance the
+          shopping experience with Emcronix. Our mission is to enhance the
           customer experience and to enable our customers in making informed
           decisions.
         </p>
-        <h2 className="font-bold text-xl">AYATRIO India:</h2>
+        <h2 className="font-bold text-xl">Emcronix India:</h2>
         <div className="space-y-5 flex flex-col md:w-2/3">
           <h4 className="font-bold">Returns Policy - Effective Nov, 2022</h4>
           <ul>
@@ -68,7 +68,7 @@ export default function Home() {
               purchase
             </li>
             <li>
-              &#8226; AYATRIO Family members: Returns or Exchange within 90 Days
+              &#8226; Emcronix Family members: Returns or Exchange within 90 Days
               from the date of purchase
             </li>
             <li>
@@ -106,7 +106,7 @@ export default function Home() {
               from our full price mattress range. If the new mattress is higher
               in price you will need to pay the difference, if the mattress you
               select is lower in price the difference will be refunded to you on
-              an AYATRIO gift card.
+              an Emcronix gift card.
             </li>
           </ul>
         </div>
@@ -118,7 +118,7 @@ export default function Home() {
             <li>
               &#8226; For returns or exchange of online orders customer can
               either contact Customer Support Center (Timing: 8 am - 10 pm) or
-              head to your local AYATRIO store.
+              head to your local Emcronix store.
             </li>
             <li>
               &#8226; Customer needs to contact Customer Support Center through
@@ -167,7 +167,7 @@ export default function Home() {
           </h4>
           <ul className="space-y-5">
             <li>
-              &#8226; Customer can either head to your local AYATRIO store and
+              &#8226; Customer can either head to your local Emcronix store and
               enter through the Exchanges & returns entrance.
             </li>
             <li>
@@ -190,13 +190,13 @@ export default function Home() {
               original invoice onlyAll refunds will be processed in the original
               mode of payment. We request customer to carry All refunds will be
               processed within 21 days from the date of returns accepted by
-              AYATRIO
+              Emcronix
             </li>
           </ul>
         </div>
         <div className="space-y-7 flex flex-col md:w-2/3">
           <h4 className="font-bold">
-            AYATRIO India reserves the rights to reject/ refuse the returns and
+            Emcronix India reserves the rights to reject/ refuse the returns and
             refunds in case:
           </h4>
           <ul className="space-y-5">
@@ -215,13 +215,13 @@ export default function Home() {
         <div className="space-y-7 flex flex-col md:w-2/3">
           <h4 className="font-bold">Have more questions about returns?</h4>
           <ul className="space-y-5">
-            <li>&#8226; Write to us at customercare.india@AYATRIO.com</li>
+            <li>&#8226; Write to us at customercare.india@Emcronix.com</li>
             <li>&#8226; Call us at 18004194532 (8 am - 10 pm)</li>
           </ul>
         </div>
         <p className="flex flex-col md:w-2/3">
           The terms and conditions set out in this return policy apply to all
-          goods purchased from AYATRIO India. This return policy is in addition
+          goods purchased from Emcronix India. This return policy is in addition
           to the customer's statutory rights.
         </p>
         <div className="flex flex-col">

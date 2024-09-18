@@ -44,7 +44,7 @@ export default function PlanningServicesPage() {
             </div>
 
             <section className="w-full md:w-1/2 mb-16" id='works'>
-                <h3 className="text-black text-2xl font-bold my-10">How Ayatrio planning services work</h3>
+                <h3 className="text-black text-2xl font-bold my-10">How Emcronix planning services work</h3>
 
                 <ol type='1' className="list-decimal pl-8 ">
                     <li className="ml-4 my-4 opacity-70 text-[15px]">

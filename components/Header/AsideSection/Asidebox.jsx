@@ -10,7 +10,7 @@ const Asidebox = (props) => {
   let parentCategory;
   switch (props.hoveredIndex) {
     case 0:
-      parentCategory = "homedecor";
+      parentCategory = "vlogging";
       break;
     case 1:
       parentCategory = "walldecor";
