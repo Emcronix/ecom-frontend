@@ -50,7 +50,7 @@ const Footer = () => {
         <div className="flex  items-center space-x-4 text-lg font-semibold tracking-tight">
           <ul className="flex flex-wrap items-center justify-center text-gray-900 dark:text-white">
             <li className="flex">
-              <a href="https://www.facebook.com/ayatrio.india/" className="me-4 hover:underline">
+              <a href="https://www.facebook.com/emcronix/" className="me-4 hover:underline">
                 <img
                   width={35}
                   height={35}
@@ -61,7 +61,7 @@ const Footer = () => {
               </a>
             </li>
             <li className="flex">
-              <a href="https://www.instagram.com/ayatrio_india/" className="me-4 hover:underline">
+              <a href="https://www.instagram.com/emcronix/" className="me-4 hover:underline">
                 <img
                   className="list-socialicon"
                   src="/icons/social-icon/instagram.svg"
@@ -70,16 +70,16 @@ const Footer = () => {
               </a>
             </li>
             <li className="flex">
-              <a href="https://twitter.com/ayatrio_india/" className="me-4 hover:underline">
+              {/* <a href="https://twitter.com/ayatrio_india/" className="me-4 hover:underline">
                 <img
                   className="list-socialicon"
                   src="/icons/social-icon/twitter.svg"
                   alt="twitter icon"
                 />
-              </a>
+              </a> */}
             </li>
             <li className="flex">
-              <a href="https://www.youtube.com/ayatrio/" className="me-4 hover:underline">
+              <a href="https://www.youtube.com/@emcronix" className="me-4 hover:underline">
                 <img
                   className="list-socialicon"
                   src="/icons/social-icon/youtube.svg"

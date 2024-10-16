@@ -759,42 +759,42 @@ const Details = () => {
               <div className="flex my-4">
                 {isFreeSample && freeSamples?.products.length > 0
                   ? freeSamples.products.map((item, index) => (
-                      <Image
-                        loading="lazy"
-                        key={index}
-                        src={item.images[0]}
-                        width={249}
-                        height={249}
-                        alt={item.productTitle}
-                        className="w-20 h-20 mr-4"
-                      />
-                    ))
+                    <Image
+                      loading="lazy"
+                      key={index}
+                      src={item.images[0]}
+                      width={249}
+                      height={249}
+                      alt={item.productTitle}
+                      className="w-20 h-20 mr-4"
+                    />
+                  ))
                   : isFreeSample && (
-                      <div className="text-lg text-gray-500 font-bold ">
-                        {cartdata !== null ? "" : "Empty cart"}
-                      </div>
-                    )}
+                    <div className="text-lg text-gray-500 font-bold ">
+                      {cartdata !== null ? "" : "Empty cart"}
+                    </div>
+                  )}
 
                 {!isFreeSample &&
-                cartdata &&
-                cartdata.items &&
-                cartdata.items.length > 0
+                  cartdata &&
+                  cartdata.items &&
+                  cartdata.items.length > 0
                   ? cartdata.items.map((item, index) => (
-                      <Image
-                        loading="lazy"
-                        key={index}
-                        src={item.productId.images[0]}
-                        width={249}
-                        height={249}
-                        alt={item.name}
-                        className="w-20 h-20 mr-4"
-                      />
-                    ))
+                    <Image
+                      loading="lazy"
+                      key={index}
+                      src={item.productId.images[0]}
+                      width={249}
+                      height={249}
+                      alt={item.name}
+                      className="w-20 h-20 mr-4"
+                    />
+                  ))
                   : !isFreeSample && (
-                      <div className="text-lg text-gray-500 font-bold ">
-                        {cartdata !== null ? "" : "Empty cart"}
-                      </div>
-                    )}
+                    <div className="text-lg text-gray-500 font-bold ">
+                      {cartdata !== null ? "" : "Empty cart"}
+                    </div>
+                  )}
               </div>
               <div className="flex my-4">
                 {
@@ -946,7 +946,7 @@ const Details = () => {
                 </svg>
               </span>
               <div className="text-black underline">
-                60 days and additional 30-day returns with Ayatrio Family
+                60 days and additional 30-day returns with Emcronix Family
               </div>
             </div>
             <div className="flex gap-4  items-center font-bold mt-4">

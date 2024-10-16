@@ -20,16 +20,16 @@ const Commercial = () => {
             Commercial Spaces for MSMEs
           </h1>
           <p>
-            Since Ayatrio started its corporate design and procurement services in
+            Since Emcronix started its corporate design and procurement services in
             2010, we have served more than 100,000 SME customers. We offer
             professional market-leading designs and convenient procurement
             services. From large furniture to fine decorative touches, find
-            products and customized solutions for every industry at Ayatrio. We
+            products and customized solutions for every industry at Emcronix. We
             support spot deliveries and fast installation to help you seize
             business opportunities.
           </p>
           <p>
-            <u className=" text-black font-bold">Become an Ayatrio Business member</u> and
+            <u className=" text-black font-bold">Become an Emcronix Business member</u> and
             enjoy exclusive benefits
           </p>
           <a href="#">

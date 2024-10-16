@@ -17,7 +17,7 @@ export async function GET() {
                     justifyContent: "center",
                 }}
             >
-                Ayatrio
+                Emcronix
             </div>
         ),
         {

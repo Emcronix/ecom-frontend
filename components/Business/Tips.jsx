@@ -59,7 +59,7 @@ const Tips = () => {
     <section className="bg-white p-20">
       <div className="text-black mb-10">
         <h1 className="text-2xl font-bold mb-4">
-          We offer professional and convenient one-stop purchasing at Ayatrio.
+          We offer professional and convenient one-stop purchasing at Emcronix.
         </h1>
         <p className="mt-2">
           Here, you'll find all the products and customized solutions you're

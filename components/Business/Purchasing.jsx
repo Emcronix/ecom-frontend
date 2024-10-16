@@ -109,7 +109,7 @@ const Purchasing = () => {
     <section className="bg-white p-20">
       <div className="w-full flex justify-between items-center">
         <h2 className="font-semibold text-2xl  pt-[30px]">
-          We offer professional and convenient one-stop purchasing at Ayatrio.
+          We offer professional and convenient one-stop purchasing at Emcronix.
         </h2>
         <div className=" flex text-2xl cursor-pointer text-white rounded-full gap-4">
           <Image

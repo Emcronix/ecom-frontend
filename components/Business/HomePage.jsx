@@ -6,7 +6,7 @@ const Home = () => {
           <p className="text-xl text-current">
             Professional, reliable, and time-efficient
           </p>
-          <h2 className="text-4xl font-bold">Ayatrio for business</h2>
+          <h2 className="text-4xl font-bold">Emcronix for business</h2>
         </div>
         <div className="mb-10">
           <h3 className="text-xl font-semibold w-[350px] ">
@@ -21,7 +21,7 @@ const Home = () => {
             Business Appointments and Consultation
           </a>
           <a href="#" className="text-blue-500 hover:underline">
-            Become an Ayatrio Business Member ›
+            Become an Emcronix Business Member ›
           </a>
         </div>
       </div>

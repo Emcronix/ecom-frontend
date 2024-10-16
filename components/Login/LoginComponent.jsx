@@ -66,7 +66,7 @@ const LoginComponent = () => {
                 src="/images/logo/emcronix.png"
                 width={200}
                 height={100}
-                alt="Ayatrio"
+                alt="Emcronix"
                 className="w-48 m-2"
                 priority
               />
@@ -74,7 +74,7 @@ const LoginComponent = () => {
 
             <div className="mt-[50px] w-full">
               <h1 className="text-lg font-semibold text-black">
-                Be Part a Ayatrio membership today. It's free to join? Get the
+                Be Part a Emcronix membership today. It's free to join? Get the
                 details.
               </h1>
 
@@ -87,7 +87,7 @@ const LoginComponent = () => {
                   Join community for live, Member-only Interior design events{" "}
                 </li>
                 <li className="py-1 text-base">
-                  Access to Ayatrio Family offers
+                  Access to Emcronix Family offers
                 </li>
                 <li className="py-1 text-base">
                   Create your personal wishlist
@@ -135,8 +135,8 @@ const LoginComponent = () => {
             </div>
             <div className="text-[10px] mt-[50px]">
               {" "}
-              <p>Ayatrio.com - Cookie Policy and Privacy Policy</p>
-              <p> © Inter Ayatrio Systems B.V. 1999-2024</p>
+              <p>Emcronix.com - Cookie Policy and Privacy Policy</p>
+              <p> © Inter Emcronix Systems B.V. 1999-2024</p>
             </div>
           </div>
         </div>
@@ -146,7 +146,7 @@ const LoginComponent = () => {
             <div className="bg-white">
               <div className="mt-[30px] mb-[10px] w-full">
                 <h3 className="text-black text-3xl leading-10 font-semibold">
-                  Wellcome to ayatrio family profile
+                  Wellcome to Emcronix family profile
                 </h3>
               </div>
 
@@ -226,7 +226,7 @@ const LoginComponent = () => {
               <div className="terms flex flex-row gap-3 mt-4 mb-10">
                 <input type="checkbox" className=" w-[30px] h-[30px] " />
                 <span className="mtp text-xs">
-                  By continuing, you agree to Ayatrio's{" "}
+                  By continuing, you agree to Emcronix's{" "}
                   <a
                     target="_blank"
                     rel="noopener noreferrer"

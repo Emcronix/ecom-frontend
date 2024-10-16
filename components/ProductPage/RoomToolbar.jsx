@@ -472,7 +472,7 @@ const RoomToolbar = ({ data }) => {
                       ?.productType === "special" ||
                       (data.productType === "special" && (
                         <p className="font-medium text-[#0152be] mb-1 text-[12px]">
-                          Ayatrio Member Favorite
+                          Emcronix Member Favorite
                         </p>
                       ))}
                     <h3 className="text-[15px] font-semibold">

@@ -459,7 +459,7 @@ const CartMain = () => {
               </h1>
               <ul className="list-disc">
                 <h3 className="text-[18px] font-bold mt-2 mb-2">
-                  Join Ayatrio Family for free
+                  Join Emcronix Family for free
                 </h3>
                 <div className="ml-8">
                   <li>Get instant benefits</li>
@@ -839,7 +839,7 @@ const CartMain = () => {
                   </svg>
                 </span>
                 <div className="text-black  underline">
-                  60 days and additional 30-day returns with Ayatrio Family
+                  60 days and additional 30-day returns with Emcronix Family
                 </div>
               </div>
 
@@ -1002,7 +1002,7 @@ const CartMain = () => {
                   </svg>
                 </span>
                 <div className="text-black  underline">
-                  60 days and additional 30-day returns with Ayatrio Family
+                  60 days and additional 30-day returns with Emcronix Family
                 </div>
               </div>
 
@@ -1047,7 +1047,7 @@ const CartMain = () => {
               </h1>
               <ul className="list-disc">
                 <h3 className="text-xl font-bold mt-5">
-                  Join Ayatrio Family for free
+                  Join Emcronix Family for free
                 </h3>
                 <div className="ml-8">
                   <li>Get instant benefits</li>

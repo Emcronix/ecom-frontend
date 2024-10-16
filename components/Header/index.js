@@ -49,7 +49,7 @@ function Header({ setIsHeaderMounted }) {
         const data = response.data;
 
         dispatch(setDbItems(data));
-      } catch (error) {}
+      } catch (error) { }
     };
     fetchData();
   }, []);
@@ -302,15 +302,14 @@ function Header({ setIsHeaderMounted }) {
       </TopHeaderWrapper>
       {isHovered && <div className="overlay"></div>}
       <div
-        className={`fixed w-full sm:bg-none ${
-          !pathname.includes("/checkout") &&
+        className={`fixed w-full sm:bg-none ${!pathname.includes("/checkout") &&
           !pathname.includes("/ayatrio-map") &&
           !pathname.includes("/profile")
-            ? typeof window !== "undefined" && window.scrollY < 20
-              ? "md:top-[35px] top-[0px]"
-              : "top-0"
+          ? typeof window !== "undefined" && window.scrollY < 20
+            ? "md:top-[35px] top-[0px]"
             : "top-0"
-        } z-[9998]
+          : "top-0"
+          } z-[9998]
        ${isScrolled ? "bg-white" : "bg-white"} 
       ${isFilterVisible ? "block" : "hidden"}
       `}
@@ -319,9 +318,8 @@ function Header({ setIsHeaderMounted }) {
         {!searchQuery ? (
           <>
             <div
-              className={`${
-                isScrolled ? " border-b-[0.5px] border-[#f5f5f5]" : ""
-              } flex flex-row justify-between z-[99999px] items-center sm:px-[20px] px-[20px] h-[60px]`}
+              className={`${isScrolled ? " border-b-[0.5px] border-[#f5f5f5]" : ""
+                } flex flex-row justify-between z-[99999px] items-center sm:px-[20px] px-[20px] h-[60px]`}
             >
               {/* main-logo */}
               <div className=" flex mainlogo items-center mr-20 justify-start">
@@ -340,27 +338,25 @@ function Header({ setIsHeaderMounted }) {
               {!pathname.includes("/profile") && (
                 <div className=" flex justify-center items-center gap-1 md:gap-5 ">
                   <div className="">
-                    <nav className="hidden md:flex">
+                    <nav className="hidden md:flex text-[15px]">
                       {headerLinks.map((value, idx) => (
                         <div
-                          className="px-[12px]"
+                          className="px-[12px] "
                           key={idx}
                           onMouseEnter={() => handleMouseEnter(idx)}
                           onMouseLeave={() => handleMouseLeave()}
-                          // onClick={() => handleClick(idx)}
+                        // onClick={() => handleClick(idx)}
                         >
                           <span
-                            className={`text-md cursor-pointer font-semibold  ${
-                              isOpen ? "border-b-2 border-black" : ""
-                            }`}
+                            className={`text-md cursor-pointer font-semibold  ${isOpen ? "border-b-2 border-black" : ""
+                              }`}
                             onClick={() => toggleDropdown(value.label)}
                           >
                             <p
-                              className={`block font-medium py-[15px] px-[5px] border-b-2  ${
-                                hoveredIndex === idx
-                                  ? "border-black"
-                                  : "border-transparent"
-                              }`}
+                              className={`block font-medium py-[15px] px-[5px] border-b-2  ${hoveredIndex === idx
+                                ? "border-black"
+                                : "border-transparent"
+                                }`}
                             >
                               {value.label}
                             </p>
@@ -392,7 +388,7 @@ function Header({ setIsHeaderMounted }) {
                       loading="lazy"
                       src="/icons/search.svg"
                       alt="Search Icon"
-                      className="absolute z-10  w-[18px] h-[18px] mt-[2px] "
+                      className="absolute z-10  w-4  mt-[2px] "
                       width={27}
                       height={27}
                     />
@@ -508,7 +504,7 @@ function Header({ setIsHeaderMounted }) {
               alt="Search Icon"
               width={20}
               height={20}
-              className="ml-[10px]"
+              className="ml-[10px] "
             />
             <p className="ml-3 line-clamp-1 text-[13px] mt-[2px]  text-gray-400">
               Search for <span ref={textElementRef2}></span>
@@ -584,21 +580,19 @@ function Header({ setIsHeaderMounted }) {
                   key={idx}
                   onMouseEnter={() => handleMouseEnter(idx)}
                   onMouseLeave={handleMouseLeave}
-                  // onClick={() => handleClick(idx)}
+                // onClick={() => handleClick(idx)}
                 >
                   <Link
-                    className={`text-md  font-semibold flex items-center justify-between  ${
-                      isOpen ? "border-b-2 border-black" : ""
-                    }`}
+                    className={`text-md  font-semibold flex items-center justify-between  ${isOpen ? "border-b-2 border-black" : ""
+                      }`}
                     href="#"
                     onClick={() => toggleDropdown(value.label)}
                   >
                     <p
-                      className={`block p-2 text-lg font-medium border-b-2 ${
-                        hoveredIndex === idx
-                          ? "border-black"
-                          : "border-transparent"
-                      }`}
+                      className={`block p-2 text-lg font-medium border-b-2 ${hoveredIndex === idx
+                        ? "border-black"
+                        : "border-transparent"
+                        }`}
                       onClick={() => handleTopValue(value.label)}
                     >
                       {value.label}

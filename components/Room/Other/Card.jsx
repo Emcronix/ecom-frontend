@@ -1097,7 +1097,7 @@ const Card = ({ data, productId, isModalOpen, setIsModalOpen }) => {
                   />
                   <p className="font-medium text-sm">ZERO Cost EMI</p>
                 </div>
-                <p className="text-[11px] pt-[5px]">Ayatrio payment option</p>
+                <p className="text-[11px] pt-[5px]">Emcronix payment option</p>
               </div>
 
               <div
@@ -1613,7 +1613,7 @@ const Card = ({ data, productId, isModalOpen, setIsModalOpen }) => {
                               <div className="flex flex-col w-full">
                                 <div className="flex items-center justify-between pt-2 mt-[10px] mb-[10px] h-[72px]">
                                   <p className="text-[24px] font-semibold text-[#111111]">
-                                    Visit us at your preferred Ayatrio store
+                                    Visit us at your preferred Emcronix store
                                   </p>
                                   <button
                                     className="text-xl px-3 py-1 hover:bg-[#e5e5e5] rounded-full cursor-pointer"
@@ -2288,7 +2288,7 @@ const Card = ({ data, productId, isModalOpen, setIsModalOpen }) => {
           )}
           <div className="flex gap-3 mt-4 items-center justify-center">
             {/* <Image 
-              src={"/icons/ayatrio_comment_button.svg"}
+              src={"/icons/Emcronix_comment_button.svg"}
               height={30}
               width={30}
               alt="downarrow"
@@ -2297,7 +2297,7 @@ const Card = ({ data, productId, isModalOpen, setIsModalOpen }) => {
 
             <div className="flex flex-col items-center">
               <p className="font-semibold text-[#1D1D1F] text-xs">
-                Have questions about Ayatrio?
+                Have questions about Emcronix?
               </p>
               <p className="text-[#0066CC] text-xs cursor-pointer font-normal hover:underline">
                 Chat with a Specialist

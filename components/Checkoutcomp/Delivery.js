@@ -582,7 +582,7 @@ const Delivery = () => {
                   <h3>
                     <span className="text-[16px] font-semibold text-black">
                       {" "}
-                      Order online and collect from an Ayatrio store or a point
+                      Order online and collect from an Emcronix store or a point
                       near you
                     </span>{" "}
                     <a href="e" className="text-[#707072] underline">
@@ -594,11 +594,10 @@ const Delivery = () => {
                 <div className=" flex flex-col">
                   <label
                     className={` flex items-center space-x-2 p-4 cursor-pointer border-solid border-black border-l
-               ${
-                 selectedOption === "option1"
-                   ? "border-2 border-solid border-blue-800"
-                   : "border-none"
-               }`}
+               ${selectedOption === "option1"
+                        ? "border-2 border-solid border-blue-800"
+                        : "border-none"
+                      }`}
                   >
                     <input
                       type="radio"
@@ -662,11 +661,10 @@ const Delivery = () => {
                   </label>
 
                   <label
-                    className={`flex items-center space-x-2 p-4 cursor-pointer ${
-                      selectedOption === "option2"
+                    className={`flex items-center space-x-2 p-4 cursor-pointer ${selectedOption === "option2"
                         ? "border-2 border-solid border-blue-800"
                         : "border-none"
-                    }`}
+                      }`}
                   >
                     <input
                       type="radio"
@@ -698,7 +696,7 @@ const Delivery = () => {
                             </p>
                             <p className="text-md font text-gray-500 py-2 w-full">
                               <span className="font-bold">
-                                Ayatrio Navi Mumbai
+                                Emcronix Navi Mumbai
                               </span>{" "}
                               TTC,Thane Belapur Rd, Turbhe 400705 Mumbai
                             </p>
@@ -755,11 +753,10 @@ const Delivery = () => {
                   <div className=" flex flex-col">
                     <label
                       className={`flex items-center space-x-2 p-4 cursor-pointer border-solid border-black border-l
-       ${
-         selectedOption === "option3"
-           ? "border-2 border-solid border-blue-800"
-           : "border-none"
-       }`}
+       ${selectedOption === "option3"
+                          ? "border-2 border-solid border-blue-800"
+                          : "border-none"
+                        }`}
                     >
                       <input
                         type="radio"
@@ -917,43 +914,43 @@ const Delivery = () => {
             <div className="flex my-4">
               {isFreeSample && freeSamples?.products.length > 0
                 ? freeSamples.products.map((item, index) => {
-                    return (
-                      <Image
-                        loading="lazy"
-                        src={item.images[0]}
-                        width={249}
-                        height={249}
-                        alt={item.name}
-                        className=" w-20 h-20 mr-4"
-                      />
-                    );
-                  })
+                  return (
+                    <Image
+                      loading="lazy"
+                      src={item.images[0]}
+                      width={249}
+                      height={249}
+                      alt={item.name}
+                      className=" w-20 h-20 mr-4"
+                    />
+                  );
+                })
                 : isFreeSample && (
-                    <div className="text-lg text-gray-500 font-bold px-5">
-                      Empty cart
-                    </div>
-                  )}
+                  <div className="text-lg text-gray-500 font-bold px-5">
+                    Empty cart
+                  </div>
+                )}
 
               {cartStatus === "loading" && <p>Loading...</p>}
               {cartStatus === "failed" && <p>Error loading data from DB.</p>}
               {!isFreeSample && cartStatus === "succeeded" && cartdata
                 ? cartdata.items.map((item, index) => {
-                    return (
-                      <Image
-                        loading="lazy"
-                        src={item.productId.images[0]}
-                        width={249}
-                        height={249}
-                        alt={item.name}
-                        className=" w-20 h-20 mr-4"
-                      />
-                    );
-                  })
+                  return (
+                    <Image
+                      loading="lazy"
+                      src={item.productId.images[0]}
+                      width={249}
+                      height={249}
+                      alt={item.name}
+                      className=" w-20 h-20 mr-4"
+                    />
+                  );
+                })
                 : !isFreeSample && (
-                    <div className="text-lg text-gray-500 font-bold px-5">
-                      Empty cart
-                    </div>
-                  )}
+                  <div className="text-lg text-gray-500 font-bold px-5">
+                    Empty cart
+                  </div>
+                )}
             </div>
             <div className="flex my-4 ">
               {
@@ -1102,7 +1099,7 @@ const Delivery = () => {
               </svg>
             </span>
             <div className="text-black  underline">
-              60 days and additional 30-day returns with Ayatrio Family
+              60 days and additional 30-day returns with Emcronix Family
             </div>
           </div>
 

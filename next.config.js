@@ -144,6 +144,15 @@ const nextConfig = withPWA({
         protocol: "https",
         hostname: "lh3.googleusercontent.com",
       },
+      {
+        protocol: "https",
+        hostname: "emcronixbucket.s3.ap-south-1.amazonaws.com",
+      },
+      {
+        protocol: "https",
+        hostname: "emcronix-bucket.s3.ap-south-1.amazonaws.com",
+      },
+
     ],
     // domains: ["images.unsplash.com"],
   },

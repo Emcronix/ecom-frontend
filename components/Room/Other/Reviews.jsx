@@ -445,11 +445,11 @@ const Reviews = ({ productId, data }) => {
                         : "text-black"
                     }`}
                   >
-                    Ayatrio Member Favourite
+                    Emcronix Member Favourite
                   </div>
                   <div className=" text-center text-gray-500">
                     <p className="text-[14px]">
-                      One of the most loved homes on Ayatrio
+                      One of the most loved homes on Emcronix
                     </p>
                     <p className="text-[14px]">
                       based on{" "}

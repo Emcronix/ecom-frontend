@@ -34,13 +34,13 @@ function WaytoBuy() {
           <div className='relative box-width mx-auto' >
             <div>
               <h1 className=" typography-headline text-6xl leading-tight font-semibold tracking-tighter font-sans">
-                The best ways to buy from Ayatrio.
+                The best ways to buy from Emcronix.
               </h1>
-              <p className='typography-para mt-8 text-2xl dd-compact-large-15  font-normal tracking-normal font-sans'>Shop at Ayatrio in a way that suits you. Enjoy up to ₹8000.00 instant savings on eligible products with HDFC Bank credit cards.§§ Plus No Cost EMI from most leading banks.§</p>
-              <p className='typography-para mt-6 text-2xl dd-compact-large-15  font-normal tracking-normal font-sans'>Trade in your smartphone online or in-store for instant credit towards your new iPhone. And, get instant credit when you exchange an eligible Mac, iPad or Ayatrio Watch at the Ayatrio Store. Footnote *</p>
+              <p className='typography-para mt-8 text-2xl dd-compact-large-15  font-normal tracking-normal font-sans'>Shop at Emcronix in a way that suits you. Enjoy up to ₹8000.00 instant savings on eligible products with HDFC Bank credit cards.§§ Plus No Cost EMI from most leading banks.§</p>
+              <p className='typography-para mt-6 text-2xl dd-compact-large-15  font-normal tracking-normal font-sans'>Trade in your smartphone online or in-store for instant credit towards your new iPhone. And, get instant credit when you exchange an eligible Mac, iPad or Emcronix Watch at the Emcronix Store. Footnote *</p>
             </div>
             <div>
-              {/* <Image loading="lazy"width={1827} height={437} src='/Waytobuys/Ayatrio1.jpg' /> */}
+              {/* <Image loading="lazy"width={1827} height={437} src='/Waytobuys/Emcronix1.jpg' /> */}
             </div>
           </div>
         </div>
@@ -323,12 +323,12 @@ function WaytoBuy() {
             {/* <Image loading="lazy"width={2827} height={500} className='absolute z-1 top-0 left-0 w-full' alt="bgimage" src="/Waytobuys/bgimage.jpg" /> */}
             <div className="relative mx-auto lg:w-1/2 z-2">
               <div className='relative pt-25 pb-18'>
-                <h3 className='text-lg font-bold pt-8'>Ayatrio Trade In</h3>
+                <h3 className='text-lg font-bold pt-8'>Emcronix Trade In</h3>
                 <p className='typography-headline text-4xl font-semibold tracking-tight font-sans dd-compact-large-15'>
                   Save up to ₹62300.00 when you exchange your eligible smartphone.
                 </p>
                 <p className=' typography-para text-lg mt-4 mx-auto dd-compact-large-15'>Save on the new iPhone you want. Exchange your old smartphone to lower the price of your new iPhone — and your monthly instalments, both in-store and online.</p>
-                <p className=' typography-para text-lg mt-4 mx-auto dd-compact-large-15'>And, get instant credit when you exchange an eligible Mac, iPad or Ayatrio Watch at the Ayatrio Store.</p>
+                <p className=' typography-para text-lg mt-4 mx-auto dd-compact-large-15'>And, get instant credit when you exchange an eligible Mac, iPad or Emcronix Watch at the Emcronix Store.</p>
                 <p className='text-lg mt-1 mx-auto'><a className='text-blue-600' href="#">Learn more</a></p>
               </div>
             </div>

@@ -208,7 +208,7 @@ const RoomInfo = ({ data, accessories }) => {
                       className="text-lg text-[#bf9b30] text-center pl-2 pr-2"
                       style={{ lineHeight: "1" }}
                     >
-                      Ayatrio member <br />
+                      Emcronix member <br />
                       favourite
                     </div>
 
@@ -227,20 +227,20 @@ const RoomInfo = ({ data, accessories }) => {
                     <img
                       className="h-10 scale-x-[-1]"
                       alt=""
-                      src="/icons/ayatrio famaily faveriot right.svg"
+                      src="/icons/Emcronix famaily faveriot right.svg"
                     />
                     <div
                       className="text-[16px] font-medium text-center "
                       style={{ lineHeight: "1" }}
                     >
-                      Ayatrio member <br />
+                      Emcronix member <br />
                       favourite
                     </div>
 
                     <img
                       className="h-10 "
                       alt=""
-                      src="/icons/ayatrio famaily faveriot right.svg"
+                      src="/icons/Emcronix famaily faveriot right.svg"
                     />
                   </div>
                 )}
@@ -252,7 +252,7 @@ const RoomInfo = ({ data, accessories }) => {
                 >
                   One of the most loved homes furnishing on
                   <br />
-                  Ayatrio, according to members
+                  Emcronix, according to members
                 </div>
 
                 <div

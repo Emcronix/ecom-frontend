@@ -13,7 +13,7 @@ const Recomend = () => {
             alt="Loadin....
             cursor-pointer"
           />
-          <h3 className="text-xl">Become an Ayatrio Business Member</h3>
+          <h3 className="text-xl">Become an Emcronix Business Member</h3>
           <p>
             We're dedicated to helping SMEs thrive. Register to enjoy 11
             exclusive benefits and receive membership gifts available for a
@@ -30,14 +30,14 @@ const Recomend = () => {
           <img
             src="/images/Business/person.jpg"
             className="w-full h-auto"
-            alt="Loading...Ayatrio
+            alt="Loading...Emcronix
             cursor-pointer"
           />
           <h3 className="text-xl">
-            Join Ayatrio engineering channel service provider
+            Join Emcronix engineering channel service provider
           </h3>
           <p>
-            Let more business partners enjoy Ayatrio's corporate business products
+            Let more business partners enjoy Emcronix's corporate business products
             and services, and jointly develop a market full of opportunities for
             win-win cooperation!
           </p>
@@ -55,9 +55,9 @@ const Recomend = () => {
             alt="Loading...Blue Box
             cursor-pointer"
           />
-          <h3 className="text-xl">Ayatrio Blue Box for a Beautiful Life</h3>
+          <h3 className="text-xl">Emcronix Blue Box for a Beautiful Life</h3>
           <p>
-            The new Ayatrio for Business gift box, sending you heartfelt wishes for
+            The new Emcronix for Business gift box, sending you heartfelt wishes for
             a beautiful life!
           </p>
           <Link

@@ -33,7 +33,7 @@ const Cookies = () => {
         You are in control of your own cookies
       </div>
       <div className="text-gray-700 text-[14px] font-normal">
-        AYATRIO and our digital partners use cookies on this site. Some are
+        Emcronix and our digital partners use cookies on this site. Some are
         strictly necessary to run the site but below are the optional ones:
       </div>
       <ul className="text-gray-700 my-[14px] pb-4 text-[14px] font-normal">
