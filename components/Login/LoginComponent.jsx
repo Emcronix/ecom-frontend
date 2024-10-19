@@ -5,50 +5,50 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import axios from "axios";
 import Cookies from "js-cookie";
-import {GoogleAuthProvider, signInWithPopup, getAuth, signInWithRedirect, signOut} from "firebase/auth";
-import {app} from "./firebase"
+// import {GoogleAuthProvider, signInWithPopup, getAuth, signInWithRedirect, signOut} from "firebase/auth";
+// import {app} from "./firebase"
 
 const LoginComponent = () => {
   const router = useRouter();
-  const auth = getAuth(app);
-  const [user, setUser] = useState(null);
+  // const auth = getAuth(app);
+  // const [user, setUser] = useState(null);
 
   
-  const handleLogin = async ()=>{
-    try{
-      // window.open(
-      //   `${process.env.NEXT_PUBLIC_API_BASE_URL}/auth/google`,
-      //   "_self"
-      // );
-      const provider =new  GoogleAuthProvider();
-      await signInWithPopup(auth, provider);
+  // const handleLogin = async ()=>{
+  //   try{
+  //     window.open(
+  //       `${process.env.NEXT_PUBLIC_API_BASE_URL}/auth/google`,
+  //       "_self"
+  //     );
+  //     // const provider =new  GoogleAuthProvider();
+  //     // await signInWithPopup(auth, provider);
 
-    }catch(error){
-      console.log("this is error", error);
+  //   }catch(error){
+  //     console.log("this is error", error);
       
-    }
+  //   }
     
 
-  }
+  // }
 
-  const handleLogout = async ()=>{
-    await signOut(auth);
-  }
+  // const handleLogout = async ()=>{
+  //   await signOut(auth);
+  // }
   
   
-  useEffect(()=>{
+  // useEffect(()=>{
     
-    const unsubscribe = auth.onAuthStateChanged((user)=>{
-      if(user){
-        setUser(user);
+  //   const unsubscribe = auth.onAuthStateChanged((user)=>{
+  //     if(user){
+  //       setUser(user);
         
-      }else{
-        setUser(null);
-      }
-    })
+  //     }else{
+  //       setUser(null);
+  //     }
+  //   })
 
-    return ()=> unsubscribe();
-  },[]);
+  //   return ()=> unsubscribe();
+  // },[]);
 
   // const signInWithGoogle = async ()=>{
   //   const auth = getAuth(app);
@@ -122,14 +122,14 @@ const LoginComponent = () => {
   // }, []);
 
   const handleGoogleLogin = async () => {
-    // try {
-      // window.open(
-      //   `${process.env.NEXT_PUBLIC_API_BASE_URL}/auth/google`,
-      //   "_self"
-      // );
-    // } catch (error) {
-    //   console.error("Error initiating Google OAuth:", error);
-    // }
+    try {
+      window.open(
+        `${process.env.NEXT_PUBLIC_API_BASE_URL}/auth/google`,
+        "_self"
+      );
+    } catch (error) {
+      console.error("Error initiating Google OAuth:", error);
+    }
   };
   const [isFormVisible, setFormVisible] = useState(false);
 
@@ -228,14 +228,15 @@ const LoginComponent = () => {
               <div className="mt-[30px] mb-[10px] w-full">
                 <h3 className="text-black text-3xl leading-10 font-semibold">
                 <h3 className="text-black text-3xl leading-10 font-semibold">
-                  {user ? `Welcome back, ${user.displayName}!` : "Welcome to Emcronix family profile"}
+                  {/* {user ? `Welcome back, ${user.displayName}!` : "Welcome to Emcronix family profile"} */}
+                  Welcome to Emcronix family profile
                 </h3>
                 </h3>
               </div>
 
               <div className="sm:block flex pt-[30px]">
                 <button
-                  onClick={handleLogin}
+                  onClick={handleGoogleLogin}
                   className="border-2 text-black border-solid  w-[100%] sm:h-14 h-8 gap-[5px] rounded-full  transition duration-300 font-semibold flex items-center justify-center mb-[15px]"
                 >
                   <Image loading="lazy"
@@ -249,7 +250,7 @@ const LoginComponent = () => {
                 
                   
                 </button>
-                <button
+                {/* <button
                   onClick={handleLogout}
                   className="border-2 text-black border-solid  w-[100%] sm:h-14 h-8 gap-[5px] rounded-full  transition duration-300 font-semibold flex items-center justify-center mb-[15px]"
                 >
@@ -263,7 +264,7 @@ const LoginComponent = () => {
                   Login out
                 
                   
-                </button>
+                </button> */}
                
               </div>
               <div className="gflbutton">

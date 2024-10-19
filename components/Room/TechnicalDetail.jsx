@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Image from "next/image";
+
 
 const TechnicalDetail = ({ data }) => {
     const [droppeddown, setDroppedDown] = useState(false);
@@ -7,7 +9,22 @@ const TechnicalDetail = ({ data }) => {
     }
   return (
     <div className="w-full my-4">
-      <h3 className="text-[#222222] text-[20px] font-medium" onClick={handleDropDown}>Technical Details</h3>
+      <div className='flex justify-between' onClick={handleDropDown}>
+        <h3 className="text-[#222222] text-[20px] font-medium" >
+        Technical Details
+        </h3>
+         <div className="pr-5">
+                <Image
+                  src="/icons/downarrow.svg"
+                  alt="tick"
+                  width={25}
+                  height={25}
+                  // className={`cursor-pointer transform transition-transform duration-300 ${
+                  //   isDropdownOpen ? "rotate-180" : ""
+                  // }`}
+                />
+            </div>
+        </div>
       
       {droppeddown &&data?.technicalDetails && data.technicalDetails.length > 0 ? (
         
