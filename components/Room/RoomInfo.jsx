@@ -6,6 +6,7 @@ import axios from "axios";
 import Link from "next/link";
 import "./styles.css";
 import RoomInfoSlider from "./RoomInfoSlider";
+import TechnicalDetail from "./TechnicalDetail"
 import AccessoriesPosts from "../Cards/AccessoriesPosts";
 
 const RoomInfo = ({ data, accessories }) => {
@@ -292,6 +293,8 @@ const RoomInfo = ({ data, accessories }) => {
         </div>
 
         <PlaceInfo data={data} />
+        <TechnicalDetail data={data}/>
+        
 
         <Amenities data={data} />
 

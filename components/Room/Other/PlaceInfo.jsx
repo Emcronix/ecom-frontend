@@ -29,7 +29,6 @@ const PlaceInfo = (data) => {
     allowSlideNext: true,
   };
 
-  console.log("Place info", data);
   const groupedCoreValues = groupIntoThrees(data?.data?.coreValues);
   //
   const [isDropdownOpen, setIsDropdownOpen] = useState(true);
@@ -40,7 +39,7 @@ const PlaceInfo = (data) => {
 
   return (
     <>
-      {data?.data?.coreValues ? (
+      {(data?.data?.coreValues) ? (
         <>
           <div className="flex flex-col ">
             <div className="flex justify-between" onClick={toggleDropdown}>
@@ -58,6 +57,7 @@ const PlaceInfo = (data) => {
                   // }`}
                 />
               </div>
+              
             </div>
             {/* dropdown */}
             {isDropdownOpen && (
@@ -161,6 +161,7 @@ const PlaceInfo = (data) => {
               </div>
             )}
           </div>
+          
         </>
       ) : (
         <>

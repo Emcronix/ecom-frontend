@@ -108,7 +108,6 @@ const RoomPage = () => {
       }
     }
   }, [selectedData, dispatch]);
-
   // useEffect(() => {
   //   const handleScroll = () => {
   //     if (window.scrollY > 0) {

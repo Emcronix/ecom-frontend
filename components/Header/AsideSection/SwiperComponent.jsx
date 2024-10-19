@@ -40,7 +40,9 @@ const SwiperComponent = ({
 
   return (
     <div className=" parent overflow-y-auto pr-6 sm:px-4 w-full border-t border-solid border-[#f5f5f5]">
-      {hoveredIndex === 3 && (
+      {/* {hoveredIndex === 3 && (
+        <>
+        
         <div className="flex sm:flex-row justify-between h-screen overflow-y-auto flex-col  sm:max-h-[72vh]">
           <div
             className={`grid grid-cols-2 sm:grid-cols-4  w-[100%] sm:w-[70%]  my-2`}
@@ -50,7 +52,9 @@ const SwiperComponent = ({
                 className="bg-white parent group"
                 onClick={handleClickAll}
                 key={index}
+                
               >
+                {console.log(data, "data")}                
                 <div className="child w-full h-full pt-3 flex flex-col px-2 justify-start">
                   <Link
                     href={`/${data.room.replace(/\s+/g, "-")}/rooms`}
@@ -67,6 +71,7 @@ const SwiperComponent = ({
                         className="child w-[170px] h-[80px]"
                         alt={data.room}
                       />
+                      
                     </div>
                     <h3 className="text-[14px] group-hover:underline font-semibold py-3 text-[#111111]">
                       {data.room}
@@ -103,7 +108,11 @@ const SwiperComponent = ({
             </div>
           </div>
         </div>
-      )}
+        
+        </>
+        
+        
+      )} */}
 
       {hoveredIndex === 4 && (
         <DesignServices

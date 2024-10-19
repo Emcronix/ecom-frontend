@@ -13,11 +13,18 @@ const Asidebox = (props) => {
       parentCategory = "vlogging";
       break;
     case 1:
-      parentCategory = "walldecor";
+      parentCategory = "Electronics";
       break;
     case 2:
-      parentCategory = "flooring";
+      parentCategory = "Videography";
       break;
+      case 3:
+      parentCategory = "Mobile Accessories";
+      break;
+      case 4:
+      parentCategory = "Sports Fitness";
+      break;
+
   }
 
   useEffect(() => {
@@ -68,7 +75,9 @@ const Asidebox = (props) => {
   if (
     props.hoveredIndex === 0 ||
     props.hoveredIndex === 1 ||
-    props.hoveredIndex === 2
+    props.hoveredIndex === 2 ||
+    props.hoveredIndex === 3 ||
+    props.hoveredIndex === 4
   ) {
     if (!asideCategory) {
       return (
@@ -92,7 +101,10 @@ const Asidebox = (props) => {
                 href={`/${value.name}/collection/all`}
                 onClick={() => handleItemClick(value)} // Handle click event
               >
-                <span>{value.name}</span>
+                <span>
+                  {value.name}
+                  {console.log(value.name, "value.name")
+                  }</span>
                 <div className="pr-[24px] sm:hidden right-0">
                   <Image
                     loading="lazy"
@@ -123,7 +135,7 @@ const Asidebox = (props) => {
           </div>
         </div>
       )}
-      {(props.hoveredIndex === 3 ||
+      {/* {(props.hoveredIndex === 3 ||
         props.hoveredIndex === 4 ||
         props.hoveredIndex === 5) && (
         <div className="absolute top-[2.7rem] bg-white flex flex-col mt-[15px] md:flex-row noto-sans-200 transition-all duration-300 ease-linear w-full md:left-0 min-h-[10rem] md:h-auto">
@@ -135,7 +147,7 @@ const Asidebox = (props) => {
             handleClick={props.HandleClick}
           />
         </div>
-      )}
+      )} */}
     </>
   );
 };

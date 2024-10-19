@@ -9,7 +9,6 @@ import { selecteddbItems, setDbItems } from "../Features/Slices/cartSlice";
 
 function Card(props) {
   const dispatch = useDispatch();
-
   function renderStars(averageRating) {
     const maxStars = 5;
     const fullStars = Math.floor(averageRating);
@@ -67,6 +66,8 @@ function Card(props) {
 
   const [slide, setSlide] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
+
+  console.log(props)
 
   const nextSlide = () => {
     setSlide(slide === props.imgSrc.length - 1 ? 0 : slide + 1);
@@ -405,49 +406,23 @@ function Card(props) {
           <div className="">
             {selectedColor !== ""
               ? productImages
-                  .find((item) => item.color === selectedColor)
-                  ?.images?.map((src, idx) => (
-                    <Link
-                      href={`/${props.title.replace(/ /g, "-")}/${
-                        props.productId
-                      }`}
-                      key={idx}
-                      aria-label={`View details about ${props.title}`}
-                    >
-                      <Image
-                        src={
-                          isHovered && !isNavigationHovered
-                            ? productImages.find(
-                                (item) =>
-                                  item.color ===
-                                  colors.find((item) => item === selectedColor)
-                              )?.images[2]
-                            : src
-                        }
-                        alt={`Image of ${props.title}`}
-                        height={300}
-                        width={300}
-                        className={
-                          slide === idx
-                            ? "aspect-square w-[400px]"
-                            : "slide-hidden"
-                        }
-                      />
-                    </Link>
-                  ))
-              : props.imgSrc?.map((item, idx) => (
+                .find((item) => item.color === selectedColor)
+                ?.images?.map((src, idx) => (
                   <Link
-                    href={`/${props.title.replace(/ /g, "-")}/${
-                      props.productId
-                    }`}
+                    href={`/${props.title.replace(/ /g, "-")}/${props.productId
+                      }`}
                     key={idx}
                     aria-label={`View details about ${props.title}`}
                   >
                     <Image
                       src={
                         isHovered && !isNavigationHovered
-                          ? props.imgSrc[1]
-                          : colorImage || item
+                          ? productImages.find(
+                            (item) =>
+                              item.color ===
+                              colors.find((item) => item === selectedColor)
+                          )?.images[2]
+                          : src
                       }
                       alt={`Image of ${props.title}`}
                       height={300}
@@ -459,7 +434,31 @@ function Card(props) {
                       }
                     />
                   </Link>
-                ))}
+                ))
+              : props.imgSrc?.map((item, idx) => (
+                <Link
+                  href={`/${props.title.replace(/ /g, "-")}/${props.productId
+                    }`}
+                  key={idx}
+                  aria-label={`View details about ${props.title}`}
+                >
+                  <Image
+                    src={
+                      isHovered && !isNavigationHovered
+                        ? props.imgSrc[1]
+                        : colorImage || item
+                    }
+                    alt={`Image of ${props.title}`}
+                    height={300}
+                    width={300}
+                    className={
+                      slide === idx
+                        ? "aspect-square w-[400px]"
+                        : "slide-hidden"
+                    }
+                  />
+                </Link>
+              ))}
           </div>
 
           {isHovered && (
@@ -479,9 +478,8 @@ function Card(props) {
             {props.imgSrc.map((_, idx) => (
               <div
                 key={idx}
-                className={`h-[0.4rem] w-[0.4rem] rounded-[50%] mr-1 ${
-                  slide === idx ? "bg-white" : "bg-[#cccc]"
-                }`}
+                className={`h-[0.4rem] w-[0.4rem] rounded-[50%] mr-1 ${slide === idx ? "bg-white" : "bg-[#cccc]"
+                  }`}
               ></div>
             ))}
           </span>
@@ -506,11 +504,10 @@ function Card(props) {
           {props.productType === "normal" || props.productType === "special" ? (
             <div className="flex gap-1 items-end">
               <p
-                className={`text-3xl flex font-semibold leading-[0.5] tracking-wide ${
-                  props.specialPrice?.price
-                    ? "bg-[#FFD209] px-2 pt-3 pb-1 w-fit shadow-lg"
-                    : ""
-                }`}
+                className={`text-3xl flex font-semibold leading-[0.5] tracking-wide ${props.specialPrice?.price
+                  ? "bg-[#FFD209] px-2 pt-3 pb-1 w-fit shadow-lg"
+                  : ""
+                  }`}
                 style={
                   props?.specialPrice?.price
                     ? { boxShadow: "3px 3px #C31952" }
@@ -518,9 +515,8 @@ function Card(props) {
                 }
               >
                 <span
-                  className={`text-sm ${
-                    props?.specialPrice?.price ? "" : "pt-3.5"
-                  }`}
+                  className={`text-sm ${props?.specialPrice?.price ? "" : "pt-3.5"
+                    }`}
                 >
                   Rs. &nbsp;
                 </span>{" "}
