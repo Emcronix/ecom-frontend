@@ -302,33 +302,7 @@ const RoomToolbar = ({ data }) => {
         <span className="text-sm">Join Live</span>
       </button>
       <span></span>
-      <div
-        onClick={handleFreeSampling}
-        className="py-2 focus:outline-none h-8 flex items-center cursor-pointer space-x-2 "
-      >
-        <Image
-          src="/icons/free sample.svg"
-          alt="free-sample"
-          width={20}
-          height={25}
-          loading="lazy"
-        />
-        <span className="text-sm">Sample request</span>
-      </div>
-      <span></span>
-      <div
-        // onClick={handleSeeOnWall}
-        className="py-2 focus:outline-none h-8 flex items-center cursor-pointer space-x-2 "
-      >
-        <Image
-          src="/icons/3d.svg"
-          alt="3d"
-          width={20}
-          height={25}
-          loading="lazy"
-        />
-        <span className="text-sm">See on the wall</span>
-      </div>
+     
 
       {openFreeSAmple && (
         <div

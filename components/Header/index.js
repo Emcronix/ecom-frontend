@@ -179,7 +179,7 @@ function Header({ setIsHeaderMounted }) {
 
   const phrases =
     pathname !== "/ayatrio-map"
-      ? [` ' Wallpapers '`, ` ' Curtains '`, ` ' Blinds '`]
+      ? [` ' Vlogging '`, ` 'Electronics'`, ` 'Camera '`, `'Mobile Accessories'`, `'Sports Fitness'`]
       : [` ' Bengaluru '`, ` ' Kolkata '`, ` ' Mumbai '`];
 
   const displayedTextRef = useRef("");
@@ -325,8 +325,8 @@ function Header({ setIsHeaderMounted }) {
               <div className=" flex mainlogo items-center mr-20 justify-start">
                 <Link href="/">
                   <Image
-                    src="/images/logo/emcronix.png"
-                    alt="Ayatrio Logo"
+                    src="/images/logo/emcronixlogo.jpg"
+                    alt="Emcronix Logo"
                     width={300}
                     height={40}
                     priority
@@ -338,7 +338,7 @@ function Header({ setIsHeaderMounted }) {
               {!pathname.includes("/profile") && (
                 <div className=" flex justify-center items-center gap-1 md:gap-5 ">
                   <div className="">
-                    <nav className="hidden md:flex text-[15px]">
+                    <nav className="hidden md:flex text-[15px] " style={{ fontSize: '14px' }}>
                       {headerLinks.map((value, idx) => (
                         <div
                           className="px-[12px] "
@@ -348,7 +348,7 @@ function Header({ setIsHeaderMounted }) {
                         // onClick={() => handleClick(idx)}
                         >
                           <span
-                            className={`text-md cursor-pointer font-semibold  ${isOpen ? "border-b-2 border-black" : ""
+                            className={`text-md text-[14px] cursor-pointer font-semibold  ${isOpen ? "border-b-2 border-black" : ""
                               }`}
                             onClick={() => toggleDropdown(value.label)}
                           >

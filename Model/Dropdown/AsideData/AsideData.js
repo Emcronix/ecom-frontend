@@ -6,7 +6,7 @@ export const headerLinks = [
     label: "Electronics",
   },
   {
-    label: "Videography",
+    label: "Camera",
   },
   {
     label: "Mobile Accessories",

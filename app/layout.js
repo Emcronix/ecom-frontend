@@ -15,17 +15,17 @@ export const metadata = {
   metadataBase: new URL(BASE_URL),
 
   title: {
-    default: "emcronix India-Affordable Home Furnishing & Decor designs & ideas",
+    default: "Buy affordable Vlogging, Cameras, Sports & Fitness Photography Kits Accessories - Emcronix",
   },
   description:
-    "Buy affordable Wallpaper, Flooring, Curtain, Blinds, Mattresses and more at online.✔55,000+ Choices ✔Free Shipping ✔No Cost EMI ✔Easy Returns",
+    "Buy for electronics, computers, appliances, Cameras ,Gaming Consoles, Vlogging, Photography Kits & Accessories. In-store pickup & free 2-day shipping on thousands of items.",
   openGraph: {
-    title: "emcronix India-Affordable Home Furnishing & Decor designs & ideas",
+    title: "Buy affordable Vlogging, Cameras, Sports & Fitness Photography Kits Accessories - Emcronix",
     description:
       "Buy affordable Wallpaper, Flooring, Curtain, Blinds, Mattresses and more at online.✔55,000+ Choices ✔Free Shipping ✔No Cost EMI ✔Easy Returns",
     images: [
       {
-        url: "/emcronix-room.jpg",
+        url: "/fabicon.jpg",
         width: 600,
         height: 600,
         alt: "emcronix India-Affordable Home Furnishing & Decor designs & ideas",

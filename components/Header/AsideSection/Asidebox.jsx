@@ -16,7 +16,7 @@ const Asidebox = (props) => {
       parentCategory = "Electronics";
       break;
     case 2:
-      parentCategory = "Videography";
+      parentCategory = "Camera";
       break;
       case 3:
       parentCategory = "Mobile Accessories";
