@@ -6,6 +6,7 @@ import FooterWrapper from "@/components/FooterWrapper/FooterWrapper";
 import NextTopLoader from "nextjs-toploader";
 import { BASE_URL } from "@/constants/base-url";
 import SwiperProvider from "@/providers/SwiperProvider";
+import Head from 'next/head';
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -25,7 +26,7 @@ export const metadata = {
       "Buy affordable Wallpaper, Flooring, Curtain, Blinds, Mattresses and more at online.✔55,000+ Choices ✔Free Shipping ✔No Cost EMI ✔Easy Returns",
     images: [
       {
-        url: "/fabicon.jpg",
+        url: "/images/favicons/favicon.ico",
         width: 600,
         height: 600,
         alt: "emcronix India-Affordable Home Furnishing & Decor designs & ideas",
@@ -58,6 +59,9 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" className={poppins.className}>
+      <head>
+        <link rel="icon" href="/images/favicons/favicon.ico" type="any" />
+      </head>
       <GoogleTagManager gtmId={gtmId} />
       <body>
         <Providers>

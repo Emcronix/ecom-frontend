@@ -179,7 +179,7 @@ function Header({ setIsHeaderMounted }) {
 
   const phrases =
     pathname !== "/ayatrio-map"
-      ? [` ' Vlogging '`, ` 'Electronics'`, ` 'Camera '`, `'Mobile Accessories'`, `'Sports Fitness'`]
+      ? [` ' Vlogging '`, ` 'Electronics'`, ` 'Camera '`, `'Mobile Acces`, `'Sports Fitnes`]
       : [` ' Bengaluru '`, ` ' Kolkata '`, ` ' Mumbai '`];
 
   const displayedTextRef = useRef("");
